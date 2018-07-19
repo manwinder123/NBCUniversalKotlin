@@ -1,6 +1,5 @@
 package com.manwinder.nbcuniversalkotlin.adapters
 
-import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.View
@@ -11,6 +10,8 @@ import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.util.inflate
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.news_item_row.view.*
+import java.text.SimpleDateFormat
+import java.util.*
 
 class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
 
@@ -31,6 +32,8 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
 
     class NewsHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener {
         private var view: View = v
+        private val dateFormatToShow = SimpleDateFormat("h:mm a EEE, MMM d, ''yy", Locale.getDefault())
+        private val dateFormatter = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
 
         init {
             v.setOnClickListener(this)
@@ -42,8 +45,15 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
 
         fun bindNewsItem(newsItem: NewsItem) {
             view.headline.text = newsItem.headline
-            view.publish_date.text = newsItem.published
+            newsItem.published?.let {
+                val date = dateFormatter.parse(newsItem.published)
+                view.publish_date.text = dateFormatToShow.format(date).toString()
+            }?: run {
+                view.publish_date.text = ""
+            }
             view.type.text = newsItem.type
+            newsItem.published
+
             if (URLUtil.isValidUrl(newsItem.tease)) {
                 Picasso.get()
                         .load(newsItem.tease)
