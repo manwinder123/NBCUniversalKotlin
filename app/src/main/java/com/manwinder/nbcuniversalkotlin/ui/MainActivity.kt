@@ -15,6 +15,7 @@ import com.manwinder.nbcuniversalkotlin.model.NewsItemViewModel
 import com.manwinder.nbcuniversalkotlin.util.replaceFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
+
 class MainActivity : AppCompatActivity() {
 
     private val newsItemsList = ArrayList<NewsItem>()
@@ -49,8 +50,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun newsItemClick(newsItem : NewsItem) {
-        Log.d("MainActivity", newsItem.headline)
-
         val args = Bundle()
         args.putString("URL", newsItem.url)
         val frag = ArticleFragment.newInstance()

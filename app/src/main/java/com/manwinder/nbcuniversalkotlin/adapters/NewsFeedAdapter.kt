@@ -1,6 +1,7 @@
 package com.manwinder.nbcuniversalkotlin.adapters
 
 import android.support.v7.widget.RecyclerView
+import android.text.format.DateUtils
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
@@ -32,7 +33,8 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val cl
 
     class NewsHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener {
         private var view: View = v
-        private val dateFormatToShow = SimpleDateFormat("h:mm a EEE, MMM d, ''yy", Locale.getDefault())
+        private val dateFormatToShow = SimpleDateFormat("EEE, MMM d, ''yy", Locale.getDefault())
+        private val dateFormatToShowToday = SimpleDateFormat("h:mm a", Locale.getDefault())
         private val dateFormatter = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
 
         init {
@@ -47,7 +49,11 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val cl
             view.headline.text = newsItem.headline
             newsItem.published?.let {
                 val date = dateFormatter.parse(newsItem.published)
-                view.publish_date.text = dateFormatToShow.format(date).toString()
+                if (DateUtils.isToday(date.time)) {
+                    view.publish_date.text = dateFormatToShowToday.format(date).toString()
+                } else {
+                    view.publish_date.text = dateFormatToShow.format(date).toString()
+                }
             }?: run {
                 view.publish_date.text = ""
             }

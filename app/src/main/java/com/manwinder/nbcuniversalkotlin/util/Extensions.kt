@@ -17,7 +17,9 @@ fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachToRoot: Boolean = false):
 
 //https://medium.com/thoughts-overflow/how-to-add-a-fragment-in-kotlin-way-73203c5a450b
 inline fun FragmentManager.inTransaction(func: FragmentTransaction.() -> FragmentTransaction) {
-    beginTransaction().func().addToBackStack(null).commit()
+    beginTransaction().func()
+            .addToBackStack(null)
+            .commit()
 }
 
 fun AppCompatActivity.replaceFragment(frameId: Int, fragment: Fragment) {
