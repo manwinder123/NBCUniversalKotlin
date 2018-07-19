@@ -1,15 +1,20 @@
 package com.manwinder.nbcuniversalkotlin.adapters
 
 import android.support.v7.widget.RecyclerView
+import android.text.format.DateUtils
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.URLUtil
 import com.manwinder.nbcuniversalkotlin.R
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.util.inflate
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.news_item_row.view.*
+import java.text.SimpleDateFormat
+import java.util.*
 
-class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
+class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val clickListener: (NewsItem) -> Unit) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsHolder {
         val inflatedView = parent.inflate(R.layout.news_item_row, false)
@@ -22,24 +27,49 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
 
     override fun onBindViewHolder(holder: NewsHolder, position: Int) {
         val newsItem = newsItems[position]
-        holder.bindNewsItem(newsItem)
+        holder.bindNewsItem(newsItem, clickListener)
     }
 
 
     class NewsHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener {
         private var view: View = v
+        private val dateFormatToShow = SimpleDateFormat("EEE, MMM d, ''yy", Locale.getDefault())
+        private val dateFormatToShowToday = SimpleDateFormat("h:mm a", Locale.getDefault())
+        private val dateFormatter = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
 
         init {
             v.setOnClickListener(this)
         }
 
-        override fun onClick(p0: View?) {
+        override fun onClick(v: View?) {
             Log.d("RecyclerView", "CLICK")
         }
 
-        fun bindNewsItem(newsItem: NewsItem) {
+        fun bindNewsItem(newsItem: NewsItem, clickListener: (NewsItem) -> Unit) {
             view.headline.text = newsItem.headline
-            view.publish_date.text = newsItem.published
+            newsItem.published?.let {
+                val date = dateFormatter.parse(newsItem.published)
+                if (DateUtils.isToday(date.time)) {
+                    view.publish_date.text = dateFormatToShowToday.format(date).toString()
+                } else {
+                    view.publish_date.text = dateFormatToShow.format(date).toString()
+                }
+            }?: run {
+                view.publish_date.text = ""
+            }
+            view.type.text = newsItem.type
+            newsItem.published
+
+            if (URLUtil.isValidUrl(newsItem.tease)) {
+                Picasso.get()
+                        .load(newsItem.tease)
+                        .centerCrop()
+                        .fit()
+                        .into(view.tease)
+            }
+            view.setOnClickListener {
+                clickListener(newsItem)
+            }
         }
     }
 }

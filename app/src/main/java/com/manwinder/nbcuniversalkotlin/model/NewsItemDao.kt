@@ -21,6 +21,9 @@ interface NewsItemDao {
     @Query("SELECT * FROM news_items")
     fun getNewsItems() : LiveData<List<NewsItem>>
 
+    @Query("SELECT * FROM news_items ORDER BY published DESC")
+    fun getNewsItemsInOrder() : LiveData<List<NewsItem>>
+
     @Query("SELECT Count(*) FROM news_items")
     fun getNumOfNewsItems() : Int
 }
