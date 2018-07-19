@@ -1,6 +1,7 @@
 package com.manwinder.nbcuniversalkotlin.adapters
 
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import com.manwinder.nbcuniversalkotlin.R
@@ -25,8 +26,16 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
     }
 
 
-    class NewsHolder(v: View) : RecyclerView.ViewHolder(v) {
+    class NewsHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener {
         private var view: View = v
+
+        init {
+            v.setOnClickListener(this)
+        }
+
+        override fun onClick(p0: View?) {
+            Log.d("RecyclerView", "CLICK")
+        }
 
         fun bindNewsItem(newsItem: NewsItem) {
             view.headline.text = newsItem.headline
