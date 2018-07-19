@@ -15,6 +15,7 @@ import com.manwinder.nbcuniversalkotlin.model.NewsItemViewModel
 import com.manwinder.nbcuniversalkotlin.model.NewsResponse
 import com.manwinder.nbcuniversalkotlin.network.NBCApi
 import com.manwinder.nbcuniversalkotlin.util.Constants
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback

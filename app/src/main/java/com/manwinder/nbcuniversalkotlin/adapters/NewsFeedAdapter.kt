@@ -1,12 +1,15 @@
 package com.manwinder.nbcuniversalkotlin.adapters
 
+import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.URLUtil
 import com.manwinder.nbcuniversalkotlin.R
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.util.inflate
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.news_item_row.view.*
 
 class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
@@ -40,6 +43,14 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
         fun bindNewsItem(newsItem: NewsItem) {
             view.headline.text = newsItem.headline
             view.publish_date.text = newsItem.published
+            view.type.text = newsItem.type
+            if (URLUtil.isValidUrl(newsItem.tease)) {
+                Picasso.get()
+                        .load(newsItem.tease)
+                        .centerCrop()
+                        .fit()
+                        .into(view.tease)
+            }
         }
     }
 }
