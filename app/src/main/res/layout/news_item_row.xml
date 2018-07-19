@@ -32,8 +32,7 @@
                 android:id="@+id/publish_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="8dp"
-                android:textIsSelectable="true"/>
+                android:paddingStart="8dp"/>
         </LinearLayout>
 
         <TextView
@@ -41,7 +40,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textIsSelectable="true"
             android:textColor="@android:color/black"
             android:textSize="20dp"/>
     </LinearLayout>

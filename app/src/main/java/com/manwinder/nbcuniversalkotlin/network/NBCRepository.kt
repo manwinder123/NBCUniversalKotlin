@@ -8,6 +8,7 @@ import io.reactivex.Completable
 import io.reactivex.schedulers.Schedulers
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
+import java.net.UnknownHostException
 import javax.inject.Singleton
 
 @Singleton
@@ -32,17 +33,21 @@ class NBCRepository() {
         Completable.fromAction {
 
             if (newsItemDao.getNumOfNewsItems() == 0) {
-                val callResponse = nbcApi.getNewsItems().execute()
-
-                if (callResponse.isSuccessful) {
-                    callResponse.body().let {
-                        it?.data?.forEach {
-                            it.items?.forEach {
-                                newsItemDao.insert(it)
+                try {
+                    val callResponse = nbcApi.getNewsItems().execute()
+                    if (callResponse.isSuccessful) {
+                        callResponse.body().let {
+                            it?.data?.forEach {
+                                it.items?.forEach {
+                                    newsItemDao.insert(it)
+                                }
                             }
                         }
                     }
+                } catch (e: UnknownHostException) {
+
                 }
+
             }
         }.subscribeOn(Schedulers.io()).subscribe()
         return newsItemDao.getNewsItemsInOrder()

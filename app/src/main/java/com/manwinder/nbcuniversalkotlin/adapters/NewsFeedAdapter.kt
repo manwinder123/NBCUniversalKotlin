@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.news_item_row.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
+class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val clickListener: (NewsItem) -> Unit) : RecyclerView.Adapter<NewsFeedAdapter.NewsHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsHolder {
         val inflatedView = parent.inflate(R.layout.news_item_row, false)
@@ -26,7 +26,7 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
 
     override fun onBindViewHolder(holder: NewsHolder, position: Int) {
         val newsItem = newsItems[position]
-        holder.bindNewsItem(newsItem)
+        holder.bindNewsItem(newsItem, clickListener)
     }
 
 
@@ -39,11 +39,11 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
             v.setOnClickListener(this)
         }
 
-        override fun onClick(p0: View?) {
+        override fun onClick(v: View?) {
             Log.d("RecyclerView", "CLICK")
         }
 
-        fun bindNewsItem(newsItem: NewsItem) {
+        fun bindNewsItem(newsItem: NewsItem, clickListener: (NewsItem) -> Unit) {
             view.headline.text = newsItem.headline
             newsItem.published?.let {
                 val date = dateFormatter.parse(newsItem.published)
@@ -60,6 +60,9 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>) : RecyclerView
                         .centerCrop()
                         .fit()
                         .into(view.tease)
+            }
+            view.setOnClickListener {
+                clickListener(newsItem)
             }
         }
     }
