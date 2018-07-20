@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         newsItemViewModel = ViewModelProviders.of(this).get(NewsItemViewModel::class.java)
         newsItemViewModel.getNewsItems(newsItemDao)
-        newsItemViewModel.getNewsItemsList().observe(this, Observer {
+        newsItemViewModel.newsItems.observe(this, Observer {
             it?.let {
                 newsItemList -> newsItemsList.addAll(newsItemList)
                 newsFeedAdapter.notifyItemInserted(newsItemsList.size)
@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity() {
                 val frag = VideoFragment.newInstance()
                 frag.arguments = args
                 replaceFragmentFade(R.id.main_container, frag)
-
             }
             newsItem.type == "slideshow" -> {
                 newsItem.images?.let {
@@ -70,7 +69,6 @@ class MainActivity : AppCompatActivity() {
 
                 frag.arguments = args
                 replaceFragmentFade(R.id.main_container, frag)
-
             }
             else -> {
                 args.putString("URL", newsItem.url)
