@@ -13,6 +13,7 @@ import com.manwinder.nbcuniversalkotlin.adapters.NewsFeedAdapter
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.model.NewsItemViewModel
 import com.manwinder.nbcuniversalkotlin.util.replaceFragment
+import com.manwinder.nbcuniversalkotlin.util.replaceFragmentFade
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -51,27 +52,32 @@ class MainActivity : AppCompatActivity() {
 
     private fun newsItemClick(newsItem : NewsItem) {
         val args = Bundle()
-        if (newsItem.type == "video") {
-            args.putString("URL", newsItem.videoUrl)
-            val frag = VideoFragment.newInstance()
-            frag.arguments = args
+        when {
+            newsItem.type == "video" -> {
+                args.putString("URL", newsItem.videoUrl)
+                val frag = VideoFragment.newInstance()
+                frag.arguments = args
+                replaceFragmentFade(R.id.main_container, frag)
 
-            supportFragmentManager.beginTransaction()
-                    .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-                    .replace(R.id.main_container, frag)
-                    .addToBackStack(null)
-                    .commit()
+            }
+            newsItem.type == "slideshow" -> {
+//                args.putParcelableArrayList("slideshow", newsItem.images)
+                val frag = SlideShowFragment.newInstance()
+                newsItem.images?.let { frag.setSlideShowList(it) }
+                frag.arguments = args
+                replaceFragmentFade(R.id.main_container, frag)
 
-        } else {
-            args.putString("URL", newsItem.url)
-            val frag = ArticleFragment.newInstance()
-            frag.arguments = args
-            replaceFragment(R.id.main_container, frag)
+            }
+            else -> {
+                args.putString("URL", newsItem.url)
+                val frag = ArticleFragment.newInstance()
+                frag.arguments = args
+                replaceFragment(R.id.main_container, frag)
+            }
         }
     }
 
     override fun onBackPressed() {
-        Log.d("BACVL", supportFragmentManager.backStackEntryCount.toString())
         if (supportFragmentManager.backStackEntryCount != 0) {
             supportFragmentManager.popBackStack()
         } else {
@@ -79,3 +85,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+

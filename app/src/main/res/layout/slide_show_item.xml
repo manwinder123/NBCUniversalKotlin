@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slide_show_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingBottom="32dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loading_bar_slide_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"/>
+
+</FrameLayout>
+
+    <!--val id: String?,-->
+    <!--val url: String?,-->
+    <!--val headline: String?,-->
+    <!--val published: String?,-->
+    <!--val caption: String?,-->
+    <!--val copyright: String?,-->
+    <!--val graphic: Boolean?-->
