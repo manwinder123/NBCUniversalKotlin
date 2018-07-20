@@ -4,8 +4,10 @@ import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 import android.arch.persistence.room.TypeConverter
 import android.arch.persistence.room.TypeConverters
+import android.os.Parcelable
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.android.parcel.Parcelize
 import java.util.*
 
 class NewsResponse (
@@ -13,8 +15,8 @@ class NewsResponse (
 )
 
 class NewsData (
-    val id: String,	//"playlist/mmlsnnd_20381145"
-    val type: String, //"Hero"
+    val id: String,
+    val type: String,
     val items: List<NewsItem>?,
     val showMore: Boolean?,
     val tease: String?,
@@ -23,44 +25,45 @@ class NewsData (
 )
 
 @Entity(tableName = "news_items")
-@TypeConverters(SlideShowImageTypeConverters::class)
+@TypeConverters(SlideShowImageTypeConverters::class, NewsCaptionTypeConverters::class)
 data class NewsItem (
     @PrimaryKey
-    val id: String,//	"mmvo1273710147636"
-    val type: String?, //	"video"
-    val url: String?, //	"https://www.nbcnews.com/…-thai-cave-1273710147636"
-    val headline: String?, //	"Mission accomplished: Al… rescued from Thai cave"
-    val published: String?, //	"2018-07-10T12:02:59Z"
-    val tease: String?, //	"https://media2.s-nbcnews…deo/201807/995168902.jpg"
-    val summary: String?, //	"Thailand’s navy SEALs co…C’s Bill Neely reports."
-    val label: String?, //	"WORLD"
-    val images: List<SlideShowImage>?, //	"WORLD"
-    val mpxID: String?, //	"1273710147636"
-    val duration: String?, //	"00:03:32"
-    val preview: String?, //	"http://public.vilynx.com…db80b/pro23.viwindow.mp4"
-    val videoUrl: String?, //	"http://link.theplatform.…nifest=m3u&metafile=none"
-    /*val captionLinks: List<NewsCapitions>,*/
-    val associatedPlaylist: String? //	"playlist/mmlsnnd_21426473"
-)
-
-class NewsCapitions (
-        val srt: String?, //	"https://nbcnewsdigital-s…ec_thai_neely_180710.srt"
-        val webvtt: String? //	"https://nbcnewsdigital-s…ec_thai_neely_180710.vtt"
-)
-
-class SlideShowImage (
-    val id: String?,
+    val id: String,
+    val type: String?,
     val url: String?,
     val headline: String?,
     val published: String?,
-    val caption: String?,
-    val copyright: String?,
-    val graphic: Boolean?
+    val tease: String?,
+    val summary: String?,
+    val label: String?,
+    val images: List<SlideShowImage>?,
+    val mpxID: String?,
+    val duration: String?,
+    val preview: String?,
+    val videoUrl: String?,
+    val captionLinks: List<NewsCaptions>?,
+    val associatedPlaylist: String?
 )
+
+class NewsCaptions (
+    val srt: String?,
+    val webvtt: String?
+)
+
+@Parcelize
+class SlideShowImage (
+        val id: String?,
+        val url: String?,
+        val headline: String?,
+        val published: String?,
+        val caption: String?,
+        val copyright: String?,
+        val graphic: Boolean?
+    ) : Parcelable
 
 
 class SlideShowImageTypeConverters {
-    val gson = Gson()
+    private val gson = Gson()
 
     @TypeConverter
     fun slideShowToList(slideShowData: String?) : List<SlideShowImage>? {
@@ -76,5 +79,23 @@ class SlideShowImageTypeConverters {
     fun slideShowListToString(slideShowList: List<SlideShowImage>?): String? {
         return gson.toJson(slideShowList)
     }
+}
 
+class NewsCaptionTypeConverters {
+    private val gson = Gson()
+
+    @TypeConverter
+    fun newsCaptionToList(newsCaptionData: String?) : List<NewsCaptions>? {
+        newsCaptionData ?: run {
+            return Collections.emptyList()
+        }
+        val listType = object : TypeToken<List<NewsCaptions>>() {}.type
+
+        return gson.fromJson(newsCaptionData, listType)
+    }
+
+    @TypeConverter
+    fun newsCaptionListToString(newsCaptionList: List<NewsCaptions>?): String? {
+        return gson.toJson(newsCaptionList)
+    }
 }

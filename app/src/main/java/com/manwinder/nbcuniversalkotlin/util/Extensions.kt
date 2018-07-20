@@ -1,8 +1,6 @@
 package com.manwinder.nbcuniversalkotlin.util
 
-import android.os.Bundle
 import android.support.annotation.LayoutRes
-
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction
@@ -10,7 +8,6 @@ import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.manwinder.nbcuniversalkotlin.model.SlideShowImage
 
 // https://www.raywenderlich.com/170075/android-recyclerview-tutorial-kotlin
 fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachToRoot: Boolean = false): View {
