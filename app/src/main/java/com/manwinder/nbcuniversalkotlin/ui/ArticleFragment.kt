@@ -32,7 +32,6 @@ class ArticleFragment : Fragment() {
      */
     override fun onCreateAnimation(transit: Int, enter: Boolean, nextAnim: Int): Animation {
         var animation : Animation
-        Log.d("enter", "enter: $enter")
         if (enter) {
             animation = AnimationUtils.loadAnimation(context, R.anim.slide_in_left)
             animation.setAnimationListener(object : Animation.AnimationListener {

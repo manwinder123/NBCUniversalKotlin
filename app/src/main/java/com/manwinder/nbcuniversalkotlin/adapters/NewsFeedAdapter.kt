@@ -30,20 +30,12 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val cl
         holder.bindNewsItem(newsItem, clickListener)
     }
 
-
-    class NewsHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener {
+    class NewsHolder(v: View): RecyclerView.ViewHolder(v) {
         private var view: View = v
         private val dateFormatToShow = SimpleDateFormat("EEE, MMM d, ''yy", Locale.getDefault())
         private val dateFormatToShowToday = SimpleDateFormat("h:mm a", Locale.getDefault())
         private val dateFormatter = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
 
-        init {
-            v.setOnClickListener(this)
-        }
-
-        override fun onClick(v: View?) {
-            Log.d("RecyclerView", "CLICK")
-        }
 
         fun bindNewsItem(newsItem: NewsItem, clickListener: (NewsItem) -> Unit) {
             view.headline.text = newsItem.headline

@@ -3,16 +3,12 @@ package com.manwinder.nbcuniversalkotlin.ui
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.Animation
-import android.view.animation.AnimationUtils
 import com.github.kittinunf.fuel.Fuel
 import com.manwinder.nbcuniversalkotlin.R
 import kotlinx.android.synthetic.main.video_fragment.*
-import kotlinx.android.synthetic.main.video_fragment.view.*
 import java.io.File
 import java.nio.charset.Charset
 
@@ -47,7 +43,7 @@ class VideoFragment : Fragment() {
                 loading_bar_video.hide()
             }
 
-            Fuel.download(url).destination { response, url ->
+            Fuel.download(url).destination { _, _ ->
                 File.createTempFile("temp", ".tmp")
             }.response { _, _, result ->
                 val str = String(result.get(), Charset.defaultCharset())
