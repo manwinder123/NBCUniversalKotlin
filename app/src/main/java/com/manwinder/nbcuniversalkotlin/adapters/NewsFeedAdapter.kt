@@ -2,7 +2,6 @@ package com.manwinder.nbcuniversalkotlin.adapters
 
 import android.support.v7.widget.RecyclerView
 import android.text.format.DateUtils
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.URLUtil

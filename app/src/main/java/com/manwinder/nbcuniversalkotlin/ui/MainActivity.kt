@@ -7,11 +7,13 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import com.manwinder.nbcuniversalkotlin.R
 import com.manwinder.nbcuniversalkotlin.adapters.NewsFeedAdapter
+import com.manwinder.nbcuniversalkotlin.database.MIGRATION_1_2
+import com.manwinder.nbcuniversalkotlin.database.NewsItemDatabase
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.model.NewsItemViewModel
+import com.manwinder.nbcuniversalkotlin.model.SlideShowImage
 import com.manwinder.nbcuniversalkotlin.util.replaceFragment
 import com.manwinder.nbcuniversalkotlin.util.replaceFragmentFade
 import kotlinx.android.synthetic.main.activity_main.*
@@ -34,7 +36,9 @@ class MainActivity : AppCompatActivity() {
         news_feed.adapter = newsFeedAdapter
         news_feed.addItemDecoration(DividerItemDecoration(news_feed.context, DividerItemDecoration.VERTICAL))
 
-        val database = Room.databaseBuilder(this, com.manwinder.nbcuniversalkotlin.model.NewsItemDatabase::class.java, "news_items.db").build()
+        val database = Room.databaseBuilder(this, NewsItemDatabase::class.java, "news_items.db")
+                .addMigrations(MIGRATION_1_2)
+                .build()
 
         val newsItemDao = database.newsItemDao()
 
@@ -42,12 +46,10 @@ class MainActivity : AppCompatActivity() {
         newsItemViewModel.getNewsItems(newsItemDao)
         newsItemViewModel.getNewsItemsList().observe(this, Observer {
             it?.let {
-                it -> newsItemsList.addAll(it)
+                newsItemList -> newsItemsList.addAll(newsItemList)
                 newsFeedAdapter.notifyItemInserted(newsItemsList.size)
             }
         })
-
-//        news_feed.addOnItemTouchListener(RecyclerItemClickListener())
     }
 
     private fun newsItemClick(newsItem : NewsItem) {
@@ -61,9 +63,11 @@ class MainActivity : AppCompatActivity() {
 
             }
             newsItem.type == "slideshow" -> {
-//                args.putParcelableArrayList("slideshow", newsItem.images)
+                newsItem.images?.let {
+                    args.putParcelableArrayList("slideshow", it as ArrayList<SlideShowImage>)
+                }
                 val frag = SlideShowFragment.newInstance()
-                newsItem.images?.let { frag.setSlideShowList(it) }
+
                 frag.arguments = args
                 replaceFragmentFade(R.id.main_container, frag)
 
@@ -85,5 +89,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
 
 

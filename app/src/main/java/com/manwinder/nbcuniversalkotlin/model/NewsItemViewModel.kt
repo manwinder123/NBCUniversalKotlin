@@ -2,6 +2,7 @@ package com.manwinder.nbcuniversalkotlin.model
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.ViewModel
+import com.manwinder.nbcuniversalkotlin.database.NewsItemDao
 import com.manwinder.nbcuniversalkotlin.network.NBCRepository
 
 class NewsItemViewModel : ViewModel() {

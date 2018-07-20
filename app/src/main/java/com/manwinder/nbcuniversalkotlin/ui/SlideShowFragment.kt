@@ -26,14 +26,14 @@ class SlideShowFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        arguments?.let {
+            slideShowList = it.getParcelableArrayList("slideshow")
+        }
+
         slide_show.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val slideShowAdapter = SlideShowAdapter(slideShowList)
         slide_show.adapter = slideShowAdapter
 //        news_feed.addItemDecoration(DividerItemDecoration(news_feed.context, DividerItemDecoration.VERTICAL))
 
-    }
-
-    fun setSlideShowList(slideShowList: List<SlideShowImage>) {
-        this.slideShowList = slideShowList as ArrayList<SlideShowImage>
     }
 }

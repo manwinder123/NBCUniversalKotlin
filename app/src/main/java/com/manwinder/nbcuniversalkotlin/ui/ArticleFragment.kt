@@ -2,7 +2,6 @@ package com.manwinder.nbcuniversalkotlin.ui
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -61,9 +60,9 @@ class ArticleFragment : Fragment() {
         web_view.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 view?.let {
-                    val view = it
+                    val v = it
                     url?.let {
-                        view.loadUrl(it)
+                        v.loadUrl(it)
                     }
                 }
                 return true

@@ -2,7 +2,7 @@ package com.manwinder.nbcuniversalkotlin.network
 
 import android.arch.lifecycle.LiveData
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
-import com.manwinder.nbcuniversalkotlin.model.NewsItemDao
+import com.manwinder.nbcuniversalkotlin.database.NewsItemDao
 import com.manwinder.nbcuniversalkotlin.util.Constants
 import io.reactivex.Completable
 import io.reactivex.schedulers.Schedulers
