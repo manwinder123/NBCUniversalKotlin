@@ -53,8 +53,8 @@ class ArticleFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        loading_bar?.let {
-            loading_bar.show()
+        loading_bar_article?.let {
+            loading_bar_article.show()
         }
     }
 
@@ -72,8 +72,8 @@ class ArticleFragment : Fragment() {
 
             override fun onPageFinished(view: WebView?, url: String?) {
                 super.onPageFinished(view, url)
-                loading_bar?.let {
-                    loading_bar.hide()
+                loading_bar_article?.let {
+                    loading_bar_article.hide()
                 }
             }
         }

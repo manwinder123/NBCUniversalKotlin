@@ -51,10 +51,23 @@ class MainActivity : AppCompatActivity() {
 
     private fun newsItemClick(newsItem : NewsItem) {
         val args = Bundle()
-        args.putString("URL", newsItem.url)
-        val frag = ArticleFragment.newInstance()
-        frag.arguments = args
-        replaceFragment(R.id.main_container, frag)
+        if (newsItem.type == "video") {
+            args.putString("URL", newsItem.videoUrl)
+            val frag = VideoFragment.newInstance()
+            frag.arguments = args
+
+            supportFragmentManager.beginTransaction()
+                    .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+                    .replace(R.id.main_container, frag)
+                    .addToBackStack(null)
+                    .commit()
+
+        } else {
+            args.putString("URL", newsItem.url)
+            val frag = ArticleFragment.newInstance()
+            frag.arguments = args
+            replaceFragment(R.id.main_container, frag)
+        }
     }
 
     override fun onBackPressed() {
