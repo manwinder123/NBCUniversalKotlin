@@ -4,9 +4,12 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.arch.persistence.room.Room
 import android.os.Bundle
+import android.support.design.widget.Snackbar
+import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
+import android.util.Log
 import com.manwinder.nbcuniversalkotlin.R
 import com.manwinder.nbcuniversalkotlin.adapters.NewsFeedAdapter
 import com.manwinder.nbcuniversalkotlin.database.MIGRATION_1_2
@@ -25,9 +28,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var newsItemViewModel: NewsItemViewModel
 
+    private lateinit var snackbar : Snackbar
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setupSnackbar()
 
         news_feed.layoutManager = LinearLayoutManager(this)
         val newsFeedAdapter = NewsFeedAdapter(newsItemsList) {
@@ -46,14 +53,22 @@ class MainActivity : AppCompatActivity() {
         newsItemViewModel.getNewsItems(newsItemDao)
         newsItemViewModel.newsItems.observe(this, Observer {
             it?.let {
-                newsItemList -> newsItemsList.addAll(newsItemList)
+                createSnackbar("News Updated")
+                newsItemsList.addAll(it)
                 newsFeedAdapter.notifyItemInserted(newsItemsList.size)
             }
+
         })
+
+        fab.setOnClickListener {
+            createSnackbar("Updating News")
+            newsItemViewModel.getNewsItems(newsItemDao)
+        }
     }
 
     private fun newsItemClick(newsItem : NewsItem) {
         val args = Bundle()
+        fab.hide()
         when {
             newsItem.type == "video" -> {
                 args.putString("URL", newsItem.videoUrl)
@@ -82,8 +97,21 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         if (supportFragmentManager.backStackEntryCount != 0) {
             supportFragmentManager.popBackStack()
+            fab.show()
         } else {
             finish()
+        }
+    }
+
+    private fun setupSnackbar() {
+        snackbar = Snackbar.make(main_container, "", Snackbar.LENGTH_SHORT)
+        snackbar.view.setBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimaryDark))
+    }
+
+    private fun createSnackbar(text : String) {
+        if (!snackbar.isShown) {
+            snackbar.setText(text)
+            snackbar.show()
         }
     }
 }
