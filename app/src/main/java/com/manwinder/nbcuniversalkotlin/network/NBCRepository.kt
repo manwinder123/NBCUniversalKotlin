@@ -45,7 +45,7 @@ class NBCRepository() {
                         }
                     }
                 } catch (e: UnknownHostException) {
-
+                    // this exception is usually thrown when the device is not connected to the internet
                 }
 
             }
