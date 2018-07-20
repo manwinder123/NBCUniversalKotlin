@@ -7,12 +7,10 @@ import com.manwinder.nbcuniversalkotlin.network.NBCRepository
 
 class NewsItemViewModel : ViewModel() {
 
-    private lateinit var newsItems : LiveData<List<NewsItem>>
+    lateinit var newsItems : LiveData<List<NewsItem>>
 
     fun getNewsItems(newsItemDao : NewsItemDao){
         val nbcRepository = NBCRepository(newsItemDao)
         newsItems = nbcRepository.getNewsItems()
     }
-
-    fun getNewsItemsList() = newsItems
 }
