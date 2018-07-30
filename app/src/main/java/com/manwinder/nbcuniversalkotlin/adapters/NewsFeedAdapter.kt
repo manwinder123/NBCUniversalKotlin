@@ -39,7 +39,7 @@ class NewsFeedAdapter(private val newsItems: ArrayList<NewsItem>, private val cl
         fun bindNewsItem(newsItem: NewsItem, clickListener: (NewsItem) -> Unit) {
             view.headline.text = newsItem.headline
             newsItem.published?.let {
-                val date = dateFormatter.parse(newsItem.published)
+                val date = dateFormatter.parse(it)
                 if (DateUtils.isToday(date.time)) {
                     view.publish_date.text = dateFormatToShowToday.format(date).toString()
                 } else {

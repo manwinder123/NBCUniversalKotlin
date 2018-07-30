@@ -1,16 +1,29 @@
 package com.manwinder.nbcuniversalkotlin.model
 
+import android.app.Application
+import android.arch.lifecycle.AndroidViewModel
 import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.ViewModel
-import com.manwinder.nbcuniversalkotlin.database.NewsItemDao
-import com.manwinder.nbcuniversalkotlin.network.NBCRepository
+import com.manwinder.nbcuniversalkotlin.api.NBCApi
+import com.manwinder.nbcuniversalkotlin.api.NBCRepository
+import com.manwinder.nbcuniversalkotlin.database.DatabaseCreator
+import com.manwinder.nbcuniversalkotlin.network.Resource
 
-class NewsItemViewModel : ViewModel() {
+class NewsItemViewModel(application: Application) : AndroidViewModel(application) {
 
-    lateinit var newsItems : LiveData<List<NewsItem>>
+    var newsItems : LiveData<Resource<List<NewsItem>?>>?
 
-    fun getNewsItems(newsItemDao : NewsItemDao){
-        val nbcRepository = NBCRepository(newsItemDao)
-        newsItems = nbcRepository.getNewsItems()
+    private var nbcRepository: NBCRepository? = null
+
+    init {
+        nbcRepository = NBCRepository(
+            NBCApi.getNBCApi(),
+            DatabaseCreator.database(application).newsItemDao()
+        )
+
+        newsItems = nbcRepository?.getNewsItems()
+    }
+
+    fun getLatestNewsItems(): LiveData<Resource<List<NewsItem>?>>? {
+        return nbcRepository?.getNewsItems()
     }
 }
