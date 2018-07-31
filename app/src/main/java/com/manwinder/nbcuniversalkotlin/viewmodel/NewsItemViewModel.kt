@@ -1,4 +1,4 @@
-package com.manwinder.nbcuniversalkotlin.model
+package com.manwinder.nbcuniversalkotlin.viewmodel
 
 import android.app.Application
 import android.arch.lifecycle.AndroidViewModel
@@ -6,6 +6,7 @@ import android.arch.lifecycle.LiveData
 import com.manwinder.nbcuniversalkotlin.api.NBCApi
 import com.manwinder.nbcuniversalkotlin.api.NBCRepository
 import com.manwinder.nbcuniversalkotlin.database.DatabaseCreator
+import com.manwinder.nbcuniversalkotlin.model.NewsItem
 import com.manwinder.nbcuniversalkotlin.network.Resource
 
 class NewsItemViewModel(application: Application) : AndroidViewModel(application) {

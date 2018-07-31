@@ -13,8 +13,8 @@ import android.support.v7.widget.RecyclerView
 import com.manwinder.nbcuniversalkotlin.R
 import com.manwinder.nbcuniversalkotlin.adapters.NewsFeedAdapter
 import com.manwinder.nbcuniversalkotlin.model.NewsItem
-import com.manwinder.nbcuniversalkotlin.model.NewsItemViewModel
 import com.manwinder.nbcuniversalkotlin.model.SlideShowImage
+import com.manwinder.nbcuniversalkotlin.viewmodel.NewsItemViewModel
 import com.manwinder.nbcuniversalkotlin.network.Resource
 import com.manwinder.nbcuniversalkotlin.network.Status
 import com.manwinder.nbcuniversalkotlin.util.getViewModel
