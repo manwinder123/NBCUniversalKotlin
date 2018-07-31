@@ -1,0 +1,3653 @@
+{
+  "data": [
+    {
+      "id": "playlist/mmlsnnd_20381145",
+      "type": "Hero",
+      "item": {
+        "id": "mmvo1273710147636",
+        "type": "video",
+        "url": "https://www.nbcnews.com/video/all-12-boys-and-coach-rescued-from-thai-cave-1273710147636",
+        "headline": "Mission accomplished: All 12 boys and coach rescued from Thai cave",
+        "published": "2018-07-10T12:02:59Z",
+        "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201807/995168902.jpg",
+        "summary": "Thailand’s navy SEALs confirmed Tuesday that all 12 members of the youth soccer team and one assistant coach have been rescued from a flooded cave, bringing an end to a more than 2 week long ordeal. NBC’s Bill Neely reports.",
+        "label": "WORLD",
+        "mpxID": "1273710147636",
+        "duration": "00:03:32",
+        "preview": "http://public.vilynx.com/17afb13269e6c5cd7033bfe997adb80b/pro23.viwindow.mp4",
+        "videoUrl": "http://link.theplatform.com/s/2E2eJC/sRfXKFIQ_Jf_?mbr=true&manifest=m3u&metafile=none",
+        "captionLinks": {
+          "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/241/671/1531224356994_nbc_spec_thai_neely_180710.srt",
+          "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/241/671/1531224356625_nbc_spec_thai_neely_180710.vtt"
+        },
+        "associatedPlaylist": "playlist/mmlsnnd_21426473",
+        "freeWheel": {
+          "fileName": "nbc_spec_thai_neely_180710",
+          "target": {
+            "sect": "news",
+            "topic": "world"
+          }
+        },
+        "tracking": {
+          "adobe": {
+            "a.media.length": "212",
+            "videocontenttype": "Video",
+            "videocontentsource": "nbcnews",
+            "videopublishdate": "2018-07-10T12:02:59Z",
+            "videotitle": "Mission accomplished: All 12 boys and coach rescued from Thai cave",
+            "videoprogram": "NBC News",
+            "videompxid": "1273710147636",
+            "videocliptype": "broadcast",
+            "videonetwork": "NBC News",
+            "videoguid": "nbc_spec_thai_neely_180710",
+            "videocontentrating": "positive",
+            "videoplaylist": "World News",
+            "videoplaylistid": "nnd_21426473"
+          },
+          "nielsen": {
+            "type": "content",
+            "assetid": "nbc_spec_thai_neely_180710",
+            "crossId2": "nbc_spec_thai_neely_180710",
+            "program": "NBC News",
+            "title": "All 12 boys and coach rescued from Thai cave",
+            "length": "212",
+            "airdate": "2018-07-10T12:02:59Z",
+            "isfullepisode": "n"
+          },
+          "comscore": {
+            "ns_st_ci": "nbc_spec_thai_neely_180710",
+            "ns_st_cl": "212000",
+            "ns_st_pu": "nbcnews",
+            "ns_st_pr": "NBC News",
+            "ns_st_ep": "Mission accomplished: All 12 boys and coach rescued from Thai cave",
+            "ns_st_sn": "*null",
+            "ns_st_en": "*null",
+            "ns_st_ge": "News",
+            "ns_st_ti": "*null",
+            "ns_st_ia": "0",
+            "ns_st_ce": "0",
+            "ns_st_ddt": "2018-07-10T12:05:53Z",
+            "ns_st_tdt": "2018-07-10T12:02:59Z"
+          }
+        }
+      }
+    },
+    {
+      "id": "web",
+      "type": "Web",
+      "url": "https://www.nbcnews.com/politics/2018-election/remote-marquee/app"
+    },
+    {
+      "id": "curation/web/news/",
+      "type": "Section",
+      "showMore": false,
+      "items": [
+        {
+          "id": "ncna890251",
+          "type": "article",
+          "url": "https://www.nbcnews.com/news/latino/parents-desperate-trump-admin-misses-migrant-family-reunification-deadline-n890251",
+          "headline": "Parents desperate as Trump admin misses reunification deadline",
+          "published": "2018-07-10T20:32:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493321/180710-honduran-child-immigrant-michigan-ew-430p_b7a42944e0bd27eabc98bf16513d5ecd.jpg",
+          "summary": "Nearly 3,000 minors in total still need to be reunited with their parents.",
+          "label": "LATINO",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890251",
+              "news.headline": "Parents desperate as Trump admin misses reunification deadline",
+              "news.contentcategory": "news",
+              "news.subcat1": "latino",
+              "news.subcat2": "not available",
+              "news.subcat3": "border-crisis",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T20:23:49Z",
+              "news.modpagepublishdate": "2018-07-10T20:32:00Z",
+              "news.author": "Daniella Silva, Gabe Gutierrez, Julia Ainsley",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:parents-desperate-trump-admin-misses-migrant-family-reunification-deadline-n890251"
+            }
+          }
+        },
+        {
+          "id": "ncna890246",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/congress/schumer-kavanaugh-i-m-going-fight-nomination-everything-i-ve-n890246",
+          "headline": "Schumer: I'm going to fight the Kavanaugh nomination 'with everything I've got'",
+          "published": "2018-07-10T17:24:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493006/180710-chuck-schumer-democrats-supreme-court-se-1237p_7e018ad345238aff061aad6c9b5b9b4a.jpg",
+          "summary": "Democrats said Tuesday they will demand the release of every single record that might be relevant to the nomination, a push that could slow the process.",
+          "label": "CONGRESS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890246",
+              "news.headline": "Schumer: I'm going to fight the Kavanaugh nomination 'with everything I've got'",
+              "news.contentcategory": "politics",
+              "news.subcat1": "congress",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T17:10:36Z",
+              "news.modpagepublishdate": "2018-07-10T17:24:00Z",
+              "news.author": "Rebecca Shabad, Garrett Haake",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:schumer-kavanaugh-i-m-going-fight-nomination-everything-i-ve-n890246"
+            }
+          }
+        },
+        {
+          "id": "ncna890341",
+          "type": "article",
+          "url": "https://soccer.nbcsports.com/2018/07/10/france-edge-past-belgium-to-reach-world-cup-final/?cid=eref:nbcnews:text",
+          "headline": "France triumphs over Belgium to reach the World Cup final",
+          "published": "2018-07-10T19:58:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493306/180710-france-semi-final-win-world-cup-ew-402p_56b871e2aff85dccf62b7c9a94ed4eac.jpg",
+          "summary": "It's a second straight final of a major tournament for France, who'll face either England or Croatia on Sunday.",
+          "label": "SPORTS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890341",
+              "news.headline": "France triumphs over Belgium to reach the World Cup final",
+              "news.contentcategory": "news",
+              "news.subcat1": "sports",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T19:59:00Z",
+              "news.modpagepublishdate": "2018-07-10T19:58:00Z",
+              "news.author": "not available",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:?cid=eref:nbcnews:text"
+            }
+          }
+        },
+        {
+          "id": "ncna889606",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/white-house/trump-s-european-trip-trade-wars-brexit-chaos-russia-quandary-n889606",
+          "headline": "Trump's European trip: Trade wars, Brexit chaos — and a Russia quandary",
+          "published": "2018-07-10T18:58:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493216/180710-donald-trump-melania-belgium-arrival-se-339p_4143812b4e4c21625ff16d14c1a62327.jpg",
+          "summary": "The president's allegiance to allies — and his willingness to deliver a tough message to Russian President Vladimir Putin — will be put to the test.",
+          "label": "WHITE HOUSE",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889606",
+              "news.headline": "Trump's European trip: Trade wars, Brexit chaos — and a Russia quandary",
+              "news.contentcategory": "politics",
+              "news.subcat1": "white-house",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T16:21:45Z",
+              "news.modpagepublishdate": "2018-07-10T18:58:00Z",
+              "news.author": "Jonathan Allen",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:trump-s-european-trip-trade-wars-brexit-chaos-russia-quandary-n889606"
+            }
+          }
+        },
+        {
+          "id": "ncna890316",
+          "type": "article",
+          "url": "https://www.nbcnews.com/pop-culture/tv/new-game-show-paid-offers-chance-eliminate-student-loan-debt-n890316",
+          "headline": "Student loan debt is a serious issue. It's also the focus of a new game show.",
+          "published": "2018-07-10T19:36:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493026/180710-paid-off-tv-show-student-debt-tru-tv-michael-torpey-se-102p_52c56698a7b32c7d08b430636fb1634f.jpg",
+          "summary": "\"We're playing in a weird space of dark comedy,\" the host said.",
+          "label": "TV",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890316",
+              "news.headline": "Student loan debt is a serious issue. It's also the focus of a new game show.",
+              "news.contentcategory": "pop-culture",
+              "news.subcat1": "tv",
+              "news.subcat2": "not available",
+              "news.subcat3": "culture-matters",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T19:36:33Z",
+              "news.modpagepublishdate": "2018-07-10T19:36:00Z",
+              "news.author": "Daniel Arkin",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:new-game-show-paid-offers-chance-eliminate-student-loan-debt-n890316"
+            }
+          }
+        },
+        {
+          "id": "ncna890396",
+          "type": "article",
+          "url": "https://www.nbcnews.com/feature/nbc-out/gay-rights-activists-protest-world-cup-hidden-rainbow-flag-n890396",
+          "headline": "'Hiding' in Moscow: Activists in soccer jerseys form gay-rights rainbow",
+          "published": "2018-07-10T22:27:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493326/180710-hidden-flag-project-world-cup-ew-433p_dcd42af86683fa45a40b61969f33bfe7.jpg",
+          "summary": "Gay “propaganda” is banned in Russia, but that didn't stop a group of soccer fans from promoting LGBTQ rights in Moscow with a subtle — yet colorful — protest.",
+          "label": "NBC OUT & PROUD",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890396",
+              "news.headline": "'Hiding' in Moscow: Activists in soccer jerseys form gay-rights rainbow",
+              "news.contentcategory": "nbc-out",
+              "news.subcat1": "nbc-out-proud",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:27:40Z",
+              "news.modpagepublishdate": "2018-07-10T22:27:00Z",
+              "news.author": "Kit Ramgopal",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:gay-rights-activists-protest-world-cup-hidden-rainbow-flag-n890396"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "playlist/mmlsnnd_20381145",
+      "type": "Videos",
+      "header": "Top Videos",
+      "videos": [
+        {
+          "id": "mmvo1273688643787",
+          "type": "video",
+          "url": "https://www.today.com/video/focus-shifts-to-thai-soccer-team-s-health-following-rescue-1273688643787",
+          "headline": "Focus shifts to Thai soccer team’s health following rescue",
+          "published": "2018-07-10T11:21:26Z",
+          "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201807/tdy_news_janis_cave_rescue_health_180710_1920x1080.jpg",
+          "summary": "Several of the Thai soccer players trapped in a cave complex have been rescued and taken to an isolation unit, where doctors say they’re safe. They have scratches, fever and signs of hypothermia, but so far they are in good health, NBC’s Janis Mackey Frayer reports for TODAY.",
+          "label": "NEWS",
+          "mpxID": "1273688643787",
+          "duration": "00:01:49",
+          "preview": "http://public.vilynx.com/9b85b92eb9608867dd5a12d9ef431748/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/9uN5BMExmGTl?mbr=true&manifest=m3u&metafile=none",
+          "captionLinks": {
+            "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/221/151/1531221824810_tdy_news_janis_cave_rescue_health_180710.srt",
+            "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/221/151/1531221824276_tdy_news_janis_cave_rescue_health_180710.vtt"
+          },
+          "associatedPlaylist": "playlist/mmlsnnd_29411569",
+          "freeWheel": {
+            "fileName": "tdy_news_janis_cave_rescue_health_180710",
+            "target": {
+              "sect": "news",
+              "topic": "news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "109",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-10T11:21:26Z",
+              "videotitle": "Focus shifts to Thai soccer team’s health following rescue",
+              "videoprogram": "TODAY",
+              "videompxid": "1273688643787",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "tdy_news_janis_cave_rescue_health_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "News",
+              "videoplaylistid": "nnd_29411569"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "tdy_news_janis_cave_rescue_health_180710",
+              "crossId2": "tdy_news_janis_cave_rescue_health_180710",
+              "program": "TODAY",
+              "title": "Focus shifts to Thai soccer team’s health following rescue",
+              "length": "109",
+              "airdate": "2018-07-10T11:21:26Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "tdy_news_janis_cave_rescue_health_180710",
+              "ns_st_cl": "109000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY",
+              "ns_st_ep": "Focus shifts to Thai soccer team’s health following rescue",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T11:23:41Z",
+              "ns_st_tdt": "2018-07-10T11:21:26Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273679427877",
+          "type": "video",
+          "url": "https://www.today.com/video/trump-nominates-brett-kavanaugh-to-supreme-court-1273679427877",
+          "headline": "Trump nominates Brett Kavanaugh to Supreme Court",
+          "published": "2018-07-10T11:06:52Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/tdy_news_alexander_kavanaugh_180710_1920x1080.jpg",
+          "summary": "President Trump on Monday evening announced Brett Kavanaugh as his pick to replace retiring Supreme Court Justice Anthony Kennedy. Kavanugh, a solid conservative, spent the last 12 years as a federal appeals court judge in Washington, D.C. The president praised him as a brilliant jurist with “impeccable credentials,” while several Democrats prepare to challenge the pick. NBC’s Peter Alexander reports for TODAY.",
+          "label": "POLITICS",
+          "mpxID": "1273679427877",
+          "duration": "00:03:11",
+          "preview": "http://public.vilynx.com/b91d595471ddb5edd6553cd183fa929d/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/etOsQdlGcdyY?mbr=true&manifest=m3u&metafile=none",
+          "captionLinks": {
+            "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/212/367/1531221046665_tdy_news_alexander_kavanaugh_180710.srt",
+            "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/212/367/1531221046357_tdy_news_alexander_kavanaugh_180710.vtt"
+          },
+          "associatedPlaylist": "playlist/mmlsnnd_56058811",
+          "freeWheel": {
+            "fileName": "tdy_news_alexander_kavanaugh_180710",
+            "target": {
+              "sect": "news",
+              "topic": "politics"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "191",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-10T11:06:52Z",
+              "videotitle": "Trump nominates Brett Kavanaugh to Supreme Court",
+              "videoprogram": "TODAY",
+              "videompxid": "1273679427877",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "tdy_news_alexander_kavanaugh_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "Politics",
+              "videoplaylistid": "nnd_56058811"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "tdy_news_alexander_kavanaugh_180710",
+              "crossId2": "tdy_news_alexander_kavanaugh_180710",
+              "program": "TODAY",
+              "title": "Trump nominates Brett Kavanaugh to Supreme Court",
+              "length": "191",
+              "airdate": "2018-07-10T11:06:52Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "tdy_news_alexander_kavanaugh_180710",
+              "ns_st_cl": "191000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY",
+              "ns_st_ep": "Trump nominates Brett Kavanaugh to Supreme Court",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T11:10:43Z",
+              "ns_st_tdt": "2018-07-10T11:06:52Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273681987668",
+          "type": "video",
+          "url": "https://www.today.com/video/what-to-know-about-trump-s-supreme-court-pick-brett-kavanaugh-1273681987668",
+          "headline": "What to know about Trump’s Supreme Court pick, Brett Kavanaugh",
+          "published": "2018-07-10T11:11:30Z",
+          "tease": "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201807/tdy_news_pete_williams_kavanaugh_180710_1920x1080.jpg",
+          "summary": "NBC justice correspondent Pete Williams and NBC’s Kasie Hunt join TODAY to provide background on President Trump’s Supreme Court nominee, federal appeals court Judge Brett Kavanaugh. The conservative justice provides a “solid majority” for the right, Williams said.",
+          "label": "POLITICS",
+          "mpxID": "1273681987668",
+          "duration": "00:03:58",
+          "preview": "http://public.vilynx.com/bd06acccdc8bd78da25159981803b34a/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/MnDWEi6Isrwj?mbr=true&manifest=m3u&metafile=none",
+          "captionLinks": {
+            "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/214/819/1531221221447_tdy_news_pete_williams_kavanaugh_180710.srt",
+            "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/214/819/1531221220986_tdy_news_pete_williams_kavanaugh_180710.vtt"
+          },
+          "associatedPlaylist": "playlist/mmlsnnd_56058811",
+          "freeWheel": {
+            "fileName": "tdy_news_pete_williams_kavanaugh_180710",
+            "target": {
+              "sect": "news",
+              "topic": "politics"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "238",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-10T11:11:30Z",
+              "videotitle": "What to know about Trump’s Supreme Court pick, Brett Kavanaugh",
+              "videoprogram": "TODAY",
+              "videompxid": "1273681987668",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "tdy_news_pete_williams_kavanaugh_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "Politics",
+              "videoplaylistid": "nnd_56058811"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "tdy_news_pete_williams_kavanaugh_180710",
+              "crossId2": "tdy_news_pete_williams_kavanaugh_180710",
+              "program": "TODAY",
+              "title": "What to know about Trump’s Supreme Court pick, Brett Kavanaugh",
+              "length": "238",
+              "airdate": "2018-07-10T11:11:30Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "tdy_news_pete_williams_kavanaugh_180710",
+              "ns_st_cl": "238000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY",
+              "ns_st_ep": "What to know about Trump’s Supreme Court pick, Brett Kavanaugh",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T11:13:37Z",
+              "ns_st_tdt": "2018-07-10T11:11:30Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273690179937",
+          "type": "video",
+          "url": "https://www.today.com/video/government-misses-court-ordered-deadline-to-reunite-youngest-migrant-children-with-families-1273690179937",
+          "headline": "Government misses court-ordered deadline to reunite youngest migrant children with families",
+          "published": "2018-07-10T11:28:18Z",
+          "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201807/tdy_news_gabe_immigration_180710_1920x1080.jpg",
+          "summary": "The federal government said it won’t meet Tuesday’s court-ordered deadline to reunite the youngest migrant children, who were separated from their parents after crossing the southern border ilegally. On Monday, a Justice Department lawyer said only two children had been reunited so far, and that 54 of 102 children are expected to be reunited Tuesday. A federal judge has asked the federal government to provide an updated timeline on Tuesday morning, Gabe Gutierrez reports for TODAY from El Paso, Texas.",
+          "label": "POLITICS",
+          "mpxID": "1273690179937",
+          "duration": "00:02:03",
+          "preview": "http://public.vilynx.com/1009baaced65103ecc0af5fe4ee6db3b/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/YuI7_OKLRtb6?mbr=true&manifest=m3u&metafile=none",
+          "captionLinks": {
+            "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/222/627/1531222172416_tdy_news_gabe_immigration_180710.srt",
+            "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/222/627/1531222172798_tdy_news_gabe_immigration_180710.vtt"
+          },
+          "associatedPlaylist": "playlist/mmlsnnd_56058811",
+          "freeWheel": {
+            "fileName": "tdy_news_gabe_immigration_180710",
+            "target": {
+              "sect": "news",
+              "topic": "politics"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "123",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-10T11:28:18Z",
+              "videotitle": "Government misses court-ordered deadline to reunite youngest migrant children with families",
+              "videoprogram": "TODAY",
+              "videompxid": "1273690179937",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "tdy_news_gabe_immigration_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "Politics",
+              "videoplaylistid": "nnd_56058811"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "tdy_news_gabe_immigration_180710",
+              "crossId2": "tdy_news_gabe_immigration_180710",
+              "program": "TODAY",
+              "title": "Government misses court-ordered deadline to reunite youngest migrant children with families",
+              "length": "123",
+              "airdate": "2018-07-10T11:28:18Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "tdy_news_gabe_immigration_180710",
+              "ns_st_cl": "123000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY",
+              "ns_st_ep": "Government misses court-ordered deadline to reunite youngest migrant children with families",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T11:29:29Z",
+              "ns_st_tdt": "2018-07-10T11:28:18Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273697347626",
+          "type": "video",
+          "url": "https://www.today.com/video/george-clooney-taken-to-hospital-after-scooter-crash-in-italy-1273697347626",
+          "headline": "George Clooney taken to hospital after scooter crash in Italy",
+          "published": "2018-07-10T11:37:43Z",
+          "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201807/tdy_pop_melvin_george_clooney_180710_1920x1080.jpg",
+          "summary": "Actor George Clooney was rushed to a local hospital on the Italian island of Sardinia on Tuesday when his scooter collided with a car. Italian officials say Clooney is “not seriously injured,” and the actor has reportedly been discharged, NBC’s Craig Melvin reports for TODAY.",
+          "label": "MOVIES",
+          "mpxID": "1273697347626",
+          "duration": "00:01:10",
+          "preview": "http://public.vilynx.com/c9c3d4c32efb69c5b30961b950886718/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/_oZKklAeG8Pn?mbr=true&manifest=m3u&metafile=none",
+          "captionLinks": {
+            "srt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/229/459/1531222893996_tdy_pop_melvin_george_clooney_180710.srt",
+            "webvtt": "https://nbcnewsdigital-static.nbcuni.com/media/captions/NBC_News/229/459/1531222893515_tdy_pop_melvin_george_clooney_180710.vtt"
+          },
+          "associatedPlaylist": "playlist/mmlsnnd_22829002",
+          "freeWheel": {
+            "fileName": "tdy_pop_melvin_george_clooney_180710",
+            "target": {
+              "sect": "popculture",
+              "topic": "movies"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "70",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-10T11:37:43Z",
+              "videotitle": "George Clooney taken to hospital after scooter crash in Italy",
+              "videoprogram": "TODAY",
+              "videompxid": "1273697347626",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "tdy_pop_melvin_george_clooney_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "Pop Culture",
+              "videoplaylistid": "nnd_22829002"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "tdy_pop_melvin_george_clooney_180710",
+              "crossId2": "tdy_pop_melvin_george_clooney_180710",
+              "program": "TODAY",
+              "title": "George Clooney taken to hospital after scooter crash in Italy",
+              "length": "70",
+              "airdate": "2018-07-10T11:37:43Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "tdy_pop_melvin_george_clooney_180710",
+              "ns_st_cl": "70000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY",
+              "ns_st_ep": "George Clooney taken to hospital after scooter crash in Italy",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T11:41:30Z",
+              "ns_st_tdt": "2018-07-10T11:37:43Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273744963872",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/inside-housing-of-last-resort-one-immigrant-family-s-life-in-75-square-feet-1273744963872",
+          "headline": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+          "published": "2018-07-10T13:05:17Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_ov_srohousing_180710.jpg",
+          "summary": "Single-room occupancy hotels, or SROs, are the housing of last resort for immigrant families in San Francisco's Chinatown. The fast decline of SROs and the tight supply of other affordable housing are leaving many of these families in limbo.",
+          "label": "ASIAN AMERICA",
+          "mpxID": "1273744963872",
+          "duration": "00:03:44",
+          "preview": "http://public.vilynx.com/c19dfc6aa1068162ff2ef690338d5c80/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/bWZAU3Kfeh_8?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_53296419",
+          "freeWheel": {
+            "fileName": "d_ov_doc_srohousing_180710",
+            "target": {
+              "sect": "news",
+              "topic": "asian-america"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "224",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-10T13:05:17Z",
+              "videotitle": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "videoprogram": "NBC News",
+              "videompxid": "1273744963872",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_srohousing_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "News",
+              "videoplaylistid": "nnd_53296419"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_srohousing_180710",
+              "crossId2": "d_ov_doc_srohousing_180710",
+              "program": "NBC News",
+              "title": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "length": "224",
+              "airdate": "2018-07-10T13:05:17Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_srohousing_180710",
+              "ns_st_cl": "224000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T13:56:57Z",
+              "ns_st_tdt": "2018-07-10T13:05:17Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273039427699",
+          "type": "video",
+          "url": "https://www.nbcnews.com/mach/video/realizing-the-dream-of-space-astronaut-peggy-whitson-on-leaving-earth-for-the-first-time-1273039427699",
+          "headline": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+          "published": "2018-07-09T15:14:29Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/peggy_whitson_iss_cupola__236885.jpg",
+          "summary": "Peggy Whitson made history several times in her career as an astronaut. She spent a record-breaking 665 days in space and became the first woman to command the ISS. In this interview, she describes her historic first spaceflight.",
+          "label": "MAKING OF AN ASTRONAUT",
+          "mpxID": "1273039427699",
+          "duration": "00:03:38",
+          "preview": "http://public.vilynx.com/5bb888e80938d2f76ab410e5f7b2bece/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/Tit8SwPA1Gui?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_mach",
+          "freeWheel": {
+            "fileName": "d_mach_astronaut_peggy1_180709",
+            "target": {
+              "sect": "news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "218",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-09T15:14:29Z",
+              "videotitle": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "videoprogram": "mach",
+              "videompxid": "1273039427699",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_mach_astronaut_peggy1_180709",
+              "videocontentrating": "positive",
+              "videoplaylist": "Mach",
+              "videoplaylistid": "nnd_mach"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_mach_astronaut_peggy1_180709",
+              "crossId2": "d_mach_astronaut_peggy1_180709",
+              "program": "mach",
+              "title": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "length": "218",
+              "airdate": "2018-07-09T15:14:29Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_mach_astronaut_peggy1_180709",
+              "ns_st_cl": "218000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "mach",
+              "ns_st_ep": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T12:02:04Z",
+              "ns_st_tdt": "2018-07-09T15:14:29Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273717315722",
+          "type": "video",
+          "url": "https://www.nbcnews.com/better/video/coffee-is-good-for-your-health-1273717315722",
+          "headline": "Coffee is good for you (for real this time!)",
+          "published": "2018-07-10T12:17:59Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_better_qt_CoffeeHealth_180710.jpg",
+          "summary": "Coffee drinkers might be more likely to live longer.",
+          "label": "CONSUMER",
+          "mpxID": "1273717315722",
+          "duration": "00:01:12",
+          "preview": "http://public.vilynx.com/a063a4efdc1295fbe6e7f0cf455c7d76/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/3sgay6fjPhvZ?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_better",
+          "freeWheel": {
+            "fileName": "d_better_qt_CoffeeHealth_180710",
+            "target": {
+              "sect": "business",
+              "topic": "consumer"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "72",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-10T12:17:59Z",
+              "videotitle": "Coffee is good for you (for real this time!)",
+              "videoprogram": "better",
+              "videompxid": "1273717315722",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_better_qt_CoffeeHealth_180710",
+              "videocontentrating": "positive",
+              "videoplaylist": "Better",
+              "videoplaylistid": "nnd_better"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_better_qt_CoffeeHealth_180710",
+              "crossId2": "d_better_qt_CoffeeHealth_180710",
+              "program": "better",
+              "title": "Coffee is good for your health",
+              "length": "72",
+              "airdate": "2018-07-10T12:17:59Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_better_qt_CoffeeHealth_180710",
+              "ns_st_cl": "72000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "better",
+              "ns_st_ep": "Coffee is good for you (for real this time!)",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T12:26:19Z",
+              "ns_st_tdt": "2018-07-10T12:17:59Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1272933955975",
+          "type": "video",
+          "url": "https://www.nbcnews.com/better/video/bestselling-author-daniel-pink-on-why-when-you-make-decisions-matters-1272933955975",
+          "headline": "Early or late riser? It matters more than you might think",
+          "published": "2018-07-09T12:55:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_better_inv_Pink_180709.jpg",
+          "summary": "It turns out your 'chronotype' can make a big difference in your life.",
+          "label": "CONSUMER",
+          "mpxID": "1272933955975",
+          "duration": "00:03:18",
+          "preview": "http://public.vilynx.com/c3dea06ff587311ac27a74f48cf883ea/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/JjDVeVVLmn58?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_better",
+          "freeWheel": {
+            "fileName": "d_better_inv_Pink_180709",
+            "target": {
+              "sect": "business",
+              "topic": "consumer"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "198",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-09T12:55:00Z",
+              "videotitle": "Early or late riser? It matters more than you might think",
+              "videoprogram": "better",
+              "videompxid": "1272933955975",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_better_inv_Pink_180709",
+              "videocontentrating": "positive",
+              "videoplaylist": "Better",
+              "videoplaylistid": "nnd_better"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_better_inv_Pink_180709",
+              "crossId2": "d_better_inv_Pink_180709",
+              "program": "better",
+              "title": "Bestselling author Daniel Pink on why when you make decisions matters",
+              "length": "198",
+              "airdate": "2018-07-09T12:55:00Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_better_inv_Pink_180709",
+              "ns_st_cl": "198000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "better",
+              "ns_st_ep": "Early or late riser? It matters more than you might think",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-09T12:49:51Z",
+              "ns_st_tdt": "2018-07-09T12:55:00Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1269422659525",
+          "type": "video",
+          "url": "https://www.today.com/video/meet-veronica-brooks-the-occupational-therapist-without-arms-1269422659525",
+          "headline": "Meet Veronica Brooks, the occupational therapist without arms",
+          "published": "2018-07-03T16:05:13Z",
+          "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201807/VeronicaStill_with_Barbara.jpg",
+          "summary": "Veronica Brooks was born without arms, but that didn’t stop her from pursuing a career in occupational therapy. Instead, her “If I can do it, you can” attitude pushes her patients to overcome their own challenges.",
+          "label": "WALK IN MY SHOES",
+          "mpxID": "1269422659525",
+          "duration": "00:04:57",
+          "preview": "http://public.vilynx.com/0325be45975769d9a71fa5b94d9f152c/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/tmQob06Sx14Z?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_todayoriginals",
+          "freeWheel": {
+            "fileName": "x_tdy_ov_health_veronica_brooks_180703",
+            "target": {
+              "sect": "news",
+              "topic": "walk-in-my-shoes"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "297",
+              "videocontenttype": "Video",
+              "videocontentsource": "today",
+              "videopublishdate": "2018-07-03T16:05:13Z",
+              "videotitle": "Meet Veronica Brooks, the occupational therapist without arms",
+              "videoprogram": "TODAY Originals",
+              "videompxid": "1269422659525",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "x_tdy_ov_health_veronica_brooks_180703",
+              "videocontentrating": "neutral",
+              "videoplaylist": "Originals",
+              "videoplaylistid": "nnd_todayoriginals"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "x_tdy_ov_health_veronica_brooks_180703",
+              "crossId2": "x_tdy_ov_health_veronica_brooks_180703",
+              "program": "TODAY Originals",
+              "title": "Meet Veronica Brooks, the occupational therapist without arms",
+              "length": "297",
+              "airdate": "2018-07-03T16:05:13Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "x_tdy_ov_health_veronica_brooks_180703",
+              "ns_st_cl": "297000",
+              "ns_st_pu": "today",
+              "ns_st_pr": "TODAY Originals",
+              "ns_st_ep": "Meet Veronica Brooks, the occupational therapist without arms",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-03T17:11:51Z",
+              "ns_st_tdt": "2018-07-03T16:05:13Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/latest-stories",
+      "type": "Section",
+      "header": "Latest",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369566/appchannelbglatest_eb6eb561e2ec9f285905befa66212520.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna890376",
+          "type": "article",
+          "url": "https://www.nbcnews.com/storyline/airplane-mode/woman-sues-united-airlines-after-allegedly-being-groped-duty-pilot-n890376",
+          "headline": "Woman sues airline after allegedly being groped by off-duty pilot on flight",
+          "published": "2018-07-10T22:33:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493316/180710-united-airlines-plane-se-408p_56ccc408907acabd387e27df2d6c6a17.jpg",
+          "summary": "The plaintiff alleges an off-duty FedEx pilot touched her three separate times during the United flight to the Bay Area.",
+          "label": "U.S. NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890376",
+              "news.headline": "Woman sues airline after allegedly being groped by off-duty pilot on flight",
+              "news.contentcategory": "news",
+              "news.subcat1": "us-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:33:14Z",
+              "news.modpagepublishdate": "2018-07-10T22:33:00Z",
+              "news.author": "Dennis Romero",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:woman-sues-united-airlines-after-allegedly-being-groped-duty-pilot-n890376"
+            }
+          }
+        },
+        {
+          "id": "ncna890396",
+          "type": "article",
+          "url": "https://www.nbcnews.com/feature/nbc-out/gay-rights-activists-protest-world-cup-hidden-rainbow-flag-n890396",
+          "headline": "'Hiding' in Moscow: Activists in soccer jerseys form gay-rights rainbow",
+          "published": "2018-07-10T22:27:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493326/180710-hidden-flag-project-world-cup-ew-433p_dcd42af86683fa45a40b61969f33bfe7.jpg",
+          "summary": "Gay “propaganda” is banned in Russia, but that didn't stop a group of soccer fans from promoting LGBTQ rights in Moscow with a subtle — yet colorful — protest.",
+          "label": "NBC OUT & PROUD",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890396",
+              "news.headline": "'Hiding' in Moscow: Activists in soccer jerseys form gay-rights rainbow",
+              "news.contentcategory": "nbc-out",
+              "news.subcat1": "nbc-out-proud",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:27:40Z",
+              "news.modpagepublishdate": "2018-07-10T22:27:00Z",
+              "news.author": "Kit Ramgopal",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:gay-rights-activists-protest-world-cup-hidden-rainbow-flag-n890396"
+            }
+          }
+        },
+        {
+          "id": "ncna889916",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/health/why-mark-bittman-wants-you-be-part-time-vegan-ncna889916",
+          "headline": "Why Mark Bittman wants you to be a part-time vegan",
+          "published": "2018-07-10T22:02:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493426/180710-mark-bittman-ac-548p_29135ad27d7a92b14549dbe55c05e33e.jpg",
+          "summary": "Mark Bittman has a golden rule for eating well: Eat more plants, less junk and fewer animal products and everyone — including the planet — gets healthier.",
+          "label": "FEATURES",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889916",
+              "news.headline": "Why Mark Bittman wants you to be a part-time vegan",
+              "news.contentcategory": "health",
+              "news.subcat1": "features",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:02:57Z",
+              "news.modpagepublishdate": "2018-07-10T22:02:00Z",
+              "news.author": "Margaret O'Malley",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "diet-fitness",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:why-mark-bittman-wants-you-be-part-time-vegan-ncna889916"
+            }
+          }
+        },
+        {
+          "id": "ncna890346",
+          "type": "article",
+          "url": "https://www.nbcnews.com/news/us-news/miracle-forest-baby-montana-man-cries-arraignment-says-he-left-n890346",
+          "headline": "Man says he left baby in Montana forest because it was 'very heavy'",
+          "published": "2018-07-10T21:57:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493301/180710-francis-crowley-ew-400p_2ad69991287689453b88f02205ef4ddc.jpg",
+          "summary": "The baby boy, who had been buried under a pile of sticks and debris, was discovered in the middle of the night on Sunday in Montana's Lolo National Forest.",
+          "label": "U.S. NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890346",
+              "news.headline": "Man says he left baby in Montana forest because it was 'very heavy'",
+              "news.contentcategory": "news",
+              "news.subcat1": "us-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T21:51:51Z",
+              "news.modpagepublishdate": "2018-07-10T21:57:00Z",
+              "news.author": "Daniel Arkin, Associated Press",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:miracle-forest-baby-montana-man-cries-arraignment-says-he-left-n890346"
+            }
+          }
+        },
+        {
+          "id": "ncsl890356",
+          "type": "slideshow",
+          "url": "https://www.nbcnews.com/slideshow/runners-dodge-bulls-pamplona-n890356",
+          "headline": "Bulls chase daredevils through Pamplona's narrow streets",
+          "published": "2018-07-10T21:37:01Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493226/ss-180710-pamplona-running-of-the-bulls-02_0bd99bd4fa9400db6ae8a970969135ba.jpg",
+          "summary": "For eight consecutive mornings, runners dodge bulls as they race through Pamplona's old city. ",
+          "label": "WORLD",
+          "images": [
+            {
+              "id": "ncim2493221",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493221/ss-180710-pamplona-running-of-the-bulls-01_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "San Fermin festival in Pamplona",
+              "published": "2018-07-10T19:56:16Z",
+              "caption": "A reveller is thrown into air during the opening the San Fermin festival in Pamplona, Spain, on July 6, 2018. \r\nThe annual festival, made famous by Ernest Hemingway's 1926 novel \"The Sun Also Rises,\" involves the daily running of the bulls through the historic heart of Pamplona to the bull ring.",
+              "copyright": "Reuters",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493226",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493226/ss-180710-pamplona-running-of-the-bulls-02_0bd99bd4fa9400db6ae8a970969135ba.jpg",
+              "headline": "Fiesta de San Fermin in Pamplona",
+              "published": "2018-07-10T21:44:58Z",
+              "caption": "Runners dodge bulls during the second day of the festival on July 8.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493231",
+              "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493231/ss-180710-pamplona-running-of-the-bulls-03_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Day 2 - San Fermin Running of the Bulls 2018",
+              "published": "2018-07-10T19:56:20Z",
+              "caption": "Revellers run with fighting bulls on July 7.",
+              "copyright": "Getty Images",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493236",
+              "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493236/ss-180710-pamplona-running-of-the-bulls-04_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "",
+              "published": "2018-07-10T19:56:22Z",
+              "caption": "Revellers run next to bulls entering the ring on July 10.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493241",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493241/ss-180710-pamplona-running-of-the-bulls-05_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "",
+              "published": "2018-07-10T19:56:23Z",
+              "caption": "Revellers protect themselves as a calf jumps over them in the bullring on July 10.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493246",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493246/ss-180710-pamplona-running-of-the-bulls-06_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Revellers dodge a \"Kiliki\" ready to hit with his sponge during San Fermin festival's \"Comparsa de gigantes y cabezudos\" (Parade of the Giants and Big Heads) in Pamplona",
+              "published": "2018-07-10T19:56:25Z",
+              "caption": "Revellers dodge a \"Kiliki\" ready to hit with his sponge during the festival's \"Comparsa de gigantes y cabezudos\" (Parade of the Giants and Big Heads) on July 8.",
+              "copyright": "Reuters",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493251",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493251/ss-180710-pamplona-running-of-the-bulls-07_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Fiesta de San Fermin in Pamplona",
+              "published": "2018-07-10T19:56:27Z",
+              "caption": "Runners dodge on July 8.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493256",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493256/ss-180710-pamplona-running-of-the-bulls-08_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Runners sprint in front of bulls during the fourth running of the bulls of the San Fermin festival in Pamplona",
+              "published": "2018-07-10T19:56:28Z",
+              "caption": "Runners sprint in front of bulls on July 1o.",
+              "copyright": "Reuters",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493261",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493261/ss-180710-pamplona-running-of-the-bulls-09_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Fiesta de San Fermin in Pamplona",
+              "published": "2018-07-10T19:56:30Z",
+              "caption": "Bullfighter Octavio Cachon prepares to enter the bullring on July 9.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493266",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493266/ss-180710-pamplona-running-of-the-bulls-10_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Third bullrun of Sanfermines 2018",
+              "published": "2018-07-10T19:56:32Z",
+              "caption": "A bull stumbles on July 9.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493271",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493271/ss-180710-pamplona-running-of-the-bulls-11_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Third bullrun of Sanfermines 2018",
+              "published": "2018-07-10T19:56:33Z",
+              "caption": "epa06874691 Several runners or \"mozos\" are chased bulls on July 9.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493276",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493276/ss-180710-pamplona-running-of-the-bulls-12_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Runners pray before the bull run on the fourth day of the San Fermin festival in Pamplona",
+              "published": "2018-07-10T19:56:35Z",
+              "caption": "Runners pray before the bull run on July 9.",
+              "copyright": "Reuters",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493281",
+              "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493281/ss-180710-pamplona-running-of-the-bulls-13_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "San Fermin festival in Pamplona",
+              "published": "2018-07-10T19:56:36Z",
+              "caption": "Spectators wait for the third running of the bulls on July 9.",
+              "copyright": "Reuters",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493286",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493286/ss-180710-pamplona-running-of-the-bulls-14_86b92cd5ba40e4dc13110caf00347bac.jpg",
+              "headline": "SPAIN-BULLFIGHTING",
+              "published": "2018-07-10T20:38:26Z",
+              "caption": "A participant receives medical attention on July 9.  \r\n\r\n\r\n\r\n\r\n\r\n / AFP PHOTO / ANDER GILLENEAANDER GILLENEA/AFP/Getty Images",
+              "copyright": "AFP - Getty Images",
+              "graphic": false
+            },
+            {
+              "id": "ncim2493291",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2493291/ss-180710-pamplona-running-of-the-bulls-15_f1d98d140574f3258d98a4b147db9be0.jpg",
+              "headline": "Fiesta de San Fermin in Pamplona",
+              "published": "2018-07-10T19:56:39Z",
+              "caption": "Spanish bullfighter Jose Garrido is tossed by a bull July 7.",
+              "copyright": "EPA",
+              "graphic": false
+            }
+          ],
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncsl890356",
+              "news.headline": "Bulls chase daredevils through Pamplona's narrow streets",
+              "news.contentcategory": "news",
+              "news.subcat1": "world",
+              "news.subcat2": "not available",
+              "news.subcat3": "in-focus",
+              "news.contentsource": "not available",
+              "news.origpagepublishdate": "2018-07-10T21:37:01Z",
+              "news.modpagepublishdate": "2018-07-10T21:37:01Z",
+              "news.author": "not available",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.newpagetype": "slideshow",
+              "news.pagename": "nbcnews:mobile:slideshow:runners-dodge-bulls-pamplona-n890356"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/in-focus",
+      "type": "Hero",
+      "item": {
+        "id": "ncsl889356",
+        "type": "slideshow",
+        "url": "https://www.nbcnews.com/slideshow/thailand-cave-rescue-n889356",
+        "headline": "Photos: Rescuers save soccer team trapped in Thai cave",
+        "published": "2018-07-10T14:15:00Z",
+        "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492616/180710-thailand-cave-rescue-njs-0830_2322fd705f81b04379eff41c805655db.jpg",
+        "summary": "All 12 boys and their coach have now been freed after a dramatic three-day rescue operation",
+        "label": "WORLD",
+        "images": [
+          {
+            "id": "ncim2489206",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_27/2489206/ss-180706-thailand-cave-rescue-1-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:57Z",
+            "caption": "Rescue teams gather in a deep cave where a group of boys and their soccer coach went missing in Chang Rai, northern Thailand, on June 25, 2018. \r\nThe group went missing after they set out to explore the cave on June 23.",
+            "copyright": "Thai News Pix via AP",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489211",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2489211/ss-180706-thailand-cave-rescue-2-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:59Z",
+            "caption": "Thai soldiers relay an electric cable deep into the Tham Luang cave at the Khun Nam Nang Non Forest Park in Chiang Rai on June 26, 2018 during a rescue operation for a missing children's football team and their coach.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489216",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2489216/ss-180706-thailand-cave-rescue-3-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:28:01Z",
+            "caption": "Thai soldiers carry a hose deep into the Tham Luang cave to pump out water at the Khun Nam Nang Non Forest Park in Chiang Rai on June 27, 2018.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489221",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2489221/ss-180706-thailand-cave-rescue-4-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:28:02Z",
+            "caption": "This handout photo taken by the Royal Thai Navy SEAL shows a team of SEAL divers inspecting the water-filled tunnel in the Tham Luang cave on June 28, 2018.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489241",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2489241/ss-180706-thailand-cave-rescue-8-al-1126_986fed7ee1de3ad63da3e0c32e160fd7.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T20:50:49Z",
+            "caption": "Thai soldiers carry equipment inside the flooded cave complex.",
+            "copyright": "via EPA",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489226",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2489226/ss-180706-thailand-cave-rescue-5-al-1126_26358ccb052b215027e84d9650f9afc4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T17:55:02Z",
+            "caption": "This photo released by Tham Luang Rescue Operation Center, shows the missing boys and their soccer coach as they were found in the dark, partially flooded cave.",
+            "copyright": null,
+            "graphic": false
+          },
+          {
+            "id": "ncim2489231",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2489231/ss-180706-thailand-cave-rescue-6-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:28:05Z",
+            "caption": "Family members celebrate while camping out near Than Luang cave following news that all members of children's football team and their coach were found alive on July 2, 2018.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489176",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_27/2489176/ss-180706-thailand-cave-rescue-9-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:47Z",
+            "caption": "Rescuers are sent inside Tham Luang Nang Non cave to continue rescue efforts on July 03, 2018.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489181",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2489181/ss-180706-thailand-cave-rescue-10-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:49Z",
+            "caption": "A video grab made available by the Thai Navy SEALs shows some of the members of a soccer team in a section of Tham Luang cave in Khun Nam Nang Non Forest Park on July 04, 2018.",
+            "copyright": "via Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489186",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2489186/ss-180706-thailand-cave-rescue-12-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:50Z",
+            "caption": "A family member prays before a shrine in Tham Luang cave area as rescue operations continue on July 5, 2018.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489191",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_27/2489191/ss-180706-thailand-cave-rescue-13-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:52Z",
+            "caption": "Military personnel carry surface supply diving cables out from Tham Luang cave complex on July 5, 2018.",
+            "copyright": "Reuters",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489196",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2489196/ss-180706-thailand-cave-rescue-14-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:54Z",
+            "caption": "Rescue workers work as water is pumped out of Tham Luang cave complex on July 5, 2018.",
+            "copyright": "Reuters",
+            "graphic": false
+          },
+          {
+            "id": "ncim2489201",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_27/2489201/ss-180706-thailand-cave-rescue-15-al-1126_6dc06989a031ef5ddb6c83ef718973e4.jpg",
+            "headline": "Thailand Cave Rescue",
+            "published": "2018-07-06T16:27:55Z",
+            "caption": "An honor guard holds up a picture of former Thai Navy SEAL diver Samarn Kunan on July 6, 2018.  \r\nKunan, 38, fell unconscious underwater and died as he attempted to return from placing air tanks deep inside the underground complex.",
+            "copyright": "Reuters",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491041",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2491041/ss-180709-thai-rescue-mc-_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:01Z",
+            "caption": "A letter that was handed to British divers on July 6 in Chiang Rai, Thailand. The letter reads \"the kids say don't be worried about them. All of them are strong. They would like to eat many different kinds of foods when they come out and Teachers, please don't give them too much homework\".",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491046",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2491046/ss-180709-thai-rescue-mc-2_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:03Z",
+            "caption": "Thai rescue teams arrange water pumping system at the entrance to a flooded cave complex where 12 boys and their soccer coach have been trapped since June 23, in Mae Sai on July 7.",
+            "copyright": "AP",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491081",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2491081/ss-180709-thai-rescue-mc-9_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:15Z",
+            "caption": "Nurses wait outside the Chaingrai Prachanukroh Hospital, where the boys will be brought upon rescue, on July 8.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491056",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2491056/ss-180709-thai-rescue-mc-4_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:06Z",
+            "caption": "An ambulance carrying one of the boys rescued from Tham Luang Nang Non cave heading towards the hospital on July 8.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491061",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2491061/ss-180709-thai-rescue-mc-5_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:08Z",
+            "caption": "Onlookers watch and cheer as ambulances deliver boys rescued from a cave in northern Thailand to hospital in Chiang Rai on July 8.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491066",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2491066/ss-180709-thai-rescue-mc-6_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:09Z",
+            "caption": "An image from the Royal Thai Navy Facebook page shows rescuers hands locked with a caption reading \"We Thai and the international teams join forces to bring the young Wild Boars home\" on July 8.",
+            "copyright": null,
+            "graphic": false
+          },
+          {
+            "id": "ncim2491076",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2491076/ss-180709-thai-rescue-mc-8_cec611a4ca93998a90a6939f0f8006c3.JPG",
+            "headline": "",
+            "published": "2018-07-09T09:05:12Z",
+            "caption": "Classmates of Adul, one of the boys trapped in Tham Luang Nang Non cave, visit a tribute for the Wild Boars soccer team at the entrance of Ban Waingphan school on July 9.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491146",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2491146/180709-thai-rescue-mc-1222_eb1a5f5dbe73d2b35e33aeedefccd406.JPG",
+            "headline": "Thai rescue",
+            "published": "2018-07-09T11:29:59Z",
+            "caption": "Police and military personnel use umbrellas to cover around a stretcher near a helicopter and an ambulance at a military airport in Chiang Rai on July 9, 2018.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2491416",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2491416/ss-180709-thailand-rescue-mn-1040_0bb878cfd48d5d03d7772e1037a394f3.jpg",
+            "headline": "Thailand Cave Rescue For Trapped Soccer Team",
+            "published": "2018-07-09T14:38:17Z",
+            "caption": "Two ambulances carry the sixth and seventh boys out of the cave.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492461",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2492461/ss-180710-thai-rescue-mc-6_b4298e4e73f4fb6ff8b56a55cab53e05.JPG",
+            "headline": "",
+            "published": "2018-07-10T11:14:04Z",
+            "caption": "Rescue personnel walk in a cave",
+            "copyright": null,
+            "graphic": false
+          },
+          {
+            "id": "ncim2492466",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492466/ss-180710-thai-rescue-mc-5_b4298e4e73f4fb6ff8b56a55cab53e05.JPG",
+            "headline": "",
+            "published": "2018-07-10T11:14:05Z",
+            "caption": "Thailand's Prime Minister Prayuth Chan-ocha poses with relatives of boys trapped in a flooded cave.",
+            "copyright": "Reuters",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492436",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2492436/ss-180710-thai-rescue-mc-4_b4298e4e73f4fb6ff8b56a55cab53e05.JPG",
+            "headline": "",
+            "published": "2018-07-10T11:13:56Z",
+            "caption": "Rescue personnel prepare the transport for the evacuation of the boys and their soccer coach trapped in a flooded cave.",
+            "copyright": null,
+            "graphic": false
+          },
+          {
+            "id": "ncim2492446",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2492446/ss-180710-thai-rescue-mc-2_b4298e4e73f4fb6ff8b56a55cab53e05.JPG",
+            "headline": "",
+            "published": "2018-07-10T11:13:59Z",
+            "caption": "A group of ambulances go in to Tham Luang cave complex.",
+            "copyright": "Reuters",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492451",
+            "url": "https://media3.s-nbcnews.com/i/newscms/2018_28/2492451/ss-180710-thai-rescue-mc-_b4298e4e73f4fb6ff8b56a55cab53e05.JPG",
+            "headline": "",
+            "published": "2018-07-10T11:14:00Z",
+            "caption": "An ambulance leaves from the Tham Luang cave area as the operations continue for those still trapped inside.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492736",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2492736/ss-180710-thai-rescue-mc-13_dd2693fc16b2f044195666befd8bff4e.JPG",
+            "headline": "",
+            "published": "2018-07-10T13:57:33Z",
+            "caption": "An emergency team rushes to a helicopter believed to be carrying one of the rescued boys.",
+            "copyright": "AP",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492726",
+            "url": "https://media1.s-nbcnews.com/i/newscms/2018_28/2492726/ss-180710-thai-rescue-mc-9_dd2693fc16b2f044195666befd8bff4e.JPG",
+            "headline": "",
+            "published": "2018-07-10T13:57:30Z",
+            "caption": "A television in a mechanic shop plays the news of the boys rescue from Tham Luang Nang Non cave.",
+            "copyright": "Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492741",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492741/ss-180710-thai-rescue-mc-12_dd2693fc16b2f044195666befd8bff4e.JPG",
+            "headline": "",
+            "published": "2018-07-10T13:57:35Z",
+            "caption": "A helicopter believed to be carrying one of the rescued boys from the flooded cave lands in Chiang Rai.",
+            "copyright": "AP",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492731",
+            "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492731/ss-180710-thai-rescue-mc-8_dd2693fc16b2f044195666befd8bff4e.JPG",
+            "headline": "",
+            "published": "2018-07-10T13:57:31Z",
+            "caption": "An ambulance transporting members of the children's football team approaches the hospital in the northern Thai city of Chiang Rai.",
+            "copyright": "AFP - Getty Images",
+            "graphic": false
+          },
+          {
+            "id": "ncim2492721",
+            "url": "https://media4.s-nbcnews.com/i/newscms/2018_28/2492721/ss-180710-thai-rescue-mc-10_dd2693fc16b2f044195666befd8bff4e.JPG",
+            "headline": "",
+            "published": "2018-07-10T13:57:28Z",
+            "caption": "Onlookers watch and cheer as ambulances transport the 10th rescued schoolboy from a helipad nearby to Chiangrai Prachanukroh Hospital.",
+            "copyright": "Getty Images",
+            "graphic": false
+          }
+        ],
+        "tracking": {
+          "adobe": {
+            "news.docid": "ncsl889356",
+            "news.headline": "Photos: Rescuers save soccer team trapped in Thai cave",
+            "news.contentcategory": "news",
+            "news.subcat1": "world",
+            "news.subcat2": "not available",
+            "news.subcat3": "in-focus",
+            "news.contentsource": "not available",
+            "news.origpagepublishdate": "2018-07-06T20:44:00Z",
+            "news.modpagepublishdate": "2018-07-10T14:15:00Z",
+            "news.author": "not available",
+            "news.verticalname": "news",
+            "news.show": "not available",
+            "news.subverticalname": "not available",
+            "news.newpagetype": "slideshow",
+            "news.pagename": "nbcnews:mobile:slideshow:thailand-cave-rescue-n889356"
+          }
+        }
+      }
+    },
+    {
+      "id": "curation/web/news/politics",
+      "type": "Section",
+      "header": "Politics",
+      "tease": "https://media3.s-nbcnews.com/i/newscms/2018_12/2369586/appchannelbgpolitics_556d02c389df53d530a8ad1e80e8ef11.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna890096",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/white-house/trump-goes-full-establishment-supreme-court-pick-n890096",
+          "headline": "Trump goes full establishment with Supreme Court pick",
+          "published": "2018-07-10T13:22:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_28/2492766/180710-trump-kavanaugh-scotus-nominee-njs-1014_5918edfccd702ee9d290ec43b4bb470f.jpg",
+          "summary": "Analysis: President Donald Trump chose not to buck the system with his nomination of establishment favorite Brett Kavanaugh to the Supreme Court.",
+          "label": "WHITE HOUSE",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890096",
+              "news.headline": "Trump goes full establishment with Supreme Court pick",
+              "news.contentcategory": "politics",
+              "news.subcat1": "white-house",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T13:22:25Z",
+              "news.modpagepublishdate": "2018-07-10T13:22:00Z",
+              "news.author": "Jonathan Allen",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:trump-goes-full-establishment-supreme-court-pick-n890096"
+            }
+          }
+        },
+        {
+          "id": "ncna890266",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-nominee-kavanaugh-begins-lobbying-campaign-gop-senators-n890266",
+          "headline": "Closely watched GOP moderate senator speaks favorably of Kavanaugh",
+          "published": "2018-07-10T20:28:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493331/180720-susan-collins-se-444p_5a1120af5d7ff6b9848178b370349237.jpg",
+          "summary": "Sen. Susan Collins, R-Maine, praised the Supreme Court nominee's previous remarks on Roe v. Wade and an opinion related to Obamacare.",
+          "label": "SUPREME COURT",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890266",
+              "news.headline": "Closely watched GOP moderate senator speaks favorably of Kavanaugh",
+              "news.contentcategory": "politics",
+              "news.subcat1": "supreme-court",
+              "news.subcat2": "not available",
+              "news.subcat3": "trump-effect",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T16:28:59Z",
+              "news.modpagepublishdate": "2018-07-10T20:28:00Z",
+              "news.author": "Garrett Haake, Adam Edelman",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:supreme-court-nominee-kavanaugh-begins-lobbying-campaign-gop-senators-n890266"
+            }
+          }
+        },
+        {
+          "id": "ncna890156",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/first-read/how-mueller-probe-could-complicate-kavanaugh-s-confirmation-n890156",
+          "headline": "How the Mueller probe could complicate Kavanaugh's confirmation",
+          "published": "2018-07-10T12:49:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2492591/180710-kavanaugh-trump-mn-0825_556c4ab7d67a17e5fc54360c3d67b979.jpg",
+          "summary": "First Read is your briefing from \"Meet the Press\" and the NBC Political Unit on the day's most important political stories and why they matter.",
+          "label": "FIRST READ",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890156",
+              "news.headline": "How the Mueller probe could complicate Kavanaugh's confirmation",
+              "news.contentcategory": "politics",
+              "news.subcat1": "first-read",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T12:49:38Z",
+              "news.modpagepublishdate": "2018-07-10T12:49:00Z",
+              "news.author": "Chuck Todd, Mark Murray , Carrie Dann",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:how-mueller-probe-could-complicate-kavanaugh-s-confirmation-n890156"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/think/",
+      "type": "Section",
+      "header": "Think",
+      "subHeader": "Fresh opinions, sharp analyses and powerful essays.",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_21/2442746/appchannelbgthink_f8e669d83eafe85a2eb9c4b022b779aa.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna885571",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/let-kirstjen-neilsen-stephen-miller-eat-mexican-food-maybe-way-ncna885571",
+          "headline": "Let Kirstjen Nielsen eat churros",
+          "published": "2018-06-22T10:01:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_25/2470961/180619-kirstjen-nielsen-ac-1122p_41d2714bca373b8dd5d74af70ffe7955.jpg",
+          "summary": "Mexican food has long served as an ambassador for Latino acceptance. It's worth trying on the denizens of D.C.",
+          "label": "OPINION",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna885571",
+              "news.headline": "Let Kirstjen Nielsen eat churros",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-06-22T08:37:21Z",
+              "news.modpagepublishdate": "2018-06-22T10:01:00Z",
+              "news.author": "Gustavo Arellano",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "hot-take",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:let-kirstjen-neilsen-stephen-miller-eat-mexican-food-maybe-way-ncna885571"
+            }
+          }
+        },
+        {
+          "id": "ncna890226",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/brett-kavanaugh-s-supreme-court-nomination-result-years-unopposed-conservative-ncna890226",
+          "headline": "Kavanaugh's Supreme Court nod is part of conservatives' master plan",
+          "published": "2018-07-10T15:56:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492691/180710-brett-kavanaugh-mn-0935_b2f706917d47ff23e50fd9dbee406549.jpg",
+          "summary": "The potential replacement to Anthony Kennedy binds Donald Trump ever more closely to the Republican Party, and vice versa.",
+          "label": "OPINION",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890226",
+              "news.headline": "Kavanaugh's Supreme Court nod is part of conservatives' master plan",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T15:56:54Z",
+              "news.modpagepublishdate": "2018-07-10T15:56:00Z",
+              "news.author": "Scott Lemieux",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "hot-take",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:brett-kavanaugh-s-supreme-court-nomination-result-years-unopposed-conservative-ncna890226"
+            }
+          }
+        },
+        {
+          "id": "ncna890056",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/russia-s-2018-world-cup-run-over-putin-dictators-everywhere-ncna890056",
+          "headline": "Russia's 2018 World Cup hopes may be dead, but Putin is a big winner anyway",
+          "published": "2018-07-10T10:09:08Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_28/2492051/180709-vladimir-putin-dmitry-medvedev-ac-748p_99231a7cde857e0b1be2fc54a0dfd586.jpg",
+          "summary": "Events like the World Cup and the Olympics kickstart a festival of patronage and allow authoritarians to seem beloved on the world stage. Enough is enough.",
+          "label": "OPINION",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890056",
+              "news.headline": "Russia's 2018 World Cup hopes may be dead, but Putin is a big winner anyway",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T09:07:19Z",
+              "news.modpagepublishdate": "2018-07-10T10:09:08Z",
+              "news.author": "Jules Boykoff ",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "hot-take",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:russia-s-2018-world-cup-run-over-putin-dictators-everywhere-ncna890056"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/mobile/news/wilsontest",
+      "type": "Section",
+      "header": "Trump Effect Test",
+      "subHeader": "Testing the Section 25 module",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_11/2359991/trump_effect_card_5acccce59d241860ea29fd796d7aed0f.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna889916",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/health/why-mark-bittman-wants-you-be-part-time-vegan-ncna889916",
+          "headline": "Why Mark Bittman wants you to be a part-time vegan",
+          "published": "2018-07-10T22:02:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493426/180710-mark-bittman-ac-548p_29135ad27d7a92b14549dbe55c05e33e.jpg",
+          "summary": "Mark Bittman has a golden rule for eating well: Eat more plants, less junk and fewer animal products and everyone — including the planet — gets healthier.",
+          "label": "FEATURES",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889916",
+              "news.headline": "Why Mark Bittman wants you to be a part-time vegan",
+              "news.contentcategory": "health",
+              "news.subcat1": "features",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:02:57Z",
+              "news.modpagepublishdate": "2018-07-10T22:02:00Z",
+              "news.author": "Margaret O'Malley",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "diet-fitness",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:why-mark-bittman-wants-you-be-part-time-vegan-ncna889916"
+            }
+          }
+        },
+        {
+          "id": "ncna889831",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/business/how-build-professional-wardrobe-budget-ncna889831",
+          "headline": "First office job? Here's how to build a work wardrobe on a budget",
+          "published": "2018-07-10T19:51:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493016/180710-better-stock-young-woman-office-ew-1246p_11f54402302d96dbd1a8fcff0bd51cf7.jpg",
+          "summary": "Shop for office-friendly apparel at a fraction of the price.",
+          "label": "PERSONAL FINANCE",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889831",
+              "news.headline": "First office job? Here's how to build a work wardrobe on a budget",
+              "news.contentcategory": "business",
+              "news.subcat1": "personal-finance",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T19:51:47Z",
+              "news.modpagepublishdate": "2018-07-10T19:51:00Z",
+              "news.author": "Nicole Spector",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "careers",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:how-build-professional-wardrobe-budget-ncna889831"
+            }
+          }
+        },
+        {
+          "id": "ncna860521",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/tech/9-fitness-apps-eliminate-every-single-workout-excuse-ncna860521",
+          "headline": "A fitness app for every workout excuse",
+          "published": "2018-07-10T15:02:52Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_13/2378536/180327-working-out-cellphone-ac-450p_93f970bdb88709538aaf0b27eaa6f302.jpg",
+          "summary": "Name any excuse not to exercise and there's an app for that.",
+          "label": "TECH NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna860521",
+              "news.headline": "A fitness app for every workout excuse",
+              "news.contentcategory": "tech",
+              "news.subcat1": "tech-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-03-27T23:49:04Z",
+              "news.modpagepublishdate": "2018-07-10T15:02:52Z",
+              "news.author": "Rebecca Norris",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "diet-fitness",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:9-fitness-apps-eliminate-every-single-workout-excuse-ncna860521"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "/",
+      "type": "Promo",
+      "header": "Featured",
+      "items": [
+        {
+          "id": "ncna884436",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/tracing-origins-puerto-rico-disaster-naomi-klein-podcast-transcript-ncna884436",
+          "headline": "Why Is This Happening? Tracing the origins of the Puerto Rico disaster with Naomi Klein",
+          "published": "2018-06-19T09:25:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_20/2432331/180514-pr-fragility-708p-na_dad0b12814450167eff305628fb3f8a1.jpg",
+          "summary": "Chris Hayes and Naomi Klein look at the destructive forces at work in Puerto Rico long before Hurricane Maria made landfall.",
+          "label": "PUERTO RICO DISASTER",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna884436",
+              "news.headline": "Why Is This Happening? Tracing the origins of the Puerto Rico disaster with Naomi Klein",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "not available",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-06-19T09:25:56Z",
+              "news.modpagepublishdate": "2018-06-19T09:25:00Z",
+              "news.author": "Why Is This Happening?",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "why-is-this-happening",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:tracing-origins-puerto-rico-disaster-naomi-klein-podcast-transcript-ncna884436"
+            }
+          }
+        },
+        {
+          "id": "ncna884791",
+          "type": "article",
+          "url": "https://www.nbcnews.com/storyline/immigration-border-crisis/foster-mom-trauma-separated-migrant-children-they-are-coming-crying-n884791",
+          "headline": "A foster mother takes migrant kids into her home after they've been separated from their families.",
+          "published": "2018-06-20T19:34:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_25/2471401/180620-immigrant-foster-home-christine-njs-1007_7e90fb070a9b6b7ab3a0c6c662bb8ace.jpg",
+          "summary": "\"It’s just painful to see a child this young have to go through that,\" said a Michigan woman who takes in children who've been separated from their families.",
+          "label": "HE WAS JUST HOWLING",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna884791",
+              "news.headline": "A foster mother takes migrant kids into her home after they've been separated from their families.",
+              "news.contentcategory": "news",
+              "news.subcat1": "us-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-06-20T17:17:28Z",
+              "news.modpagepublishdate": "2018-06-20T19:34:00Z",
+              "news.author": "Daniella Silva",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:foster-mom-trauma-separated-migrant-children-they-are-coming-crying-n884791"
+            }
+          }
+        },
+        {
+          "id": "mmvo1219005507960",
+          "type": "video",
+          "url": "https://www.nbcnews.com/mach/video/this-algorithm-can-help-resettle-refugees-by-giving-them-a-better-shot-at-employment-1219005507960",
+          "headline": "This algorithm can help resettle refugees by giving them a better shot at employment",
+          "published": "2018-06-20T18:09:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201804/d_mach_algorithmics_refugees_180425.jpg",
+          "summary": "When refugees arrive in a new country, everything is unfamiliar. Most countries just assign refugees to cities completely at random -- or according to where the open spots happen to be when the person arrives. But a new algorithm developed by Stanford’s Immigration Policy Lab could use refugees’ backgrounds to match them with their ideal cities – vastly improving their chance at employment and integration.",
+          "label": "MACH",
+          "mpxID": "1219005507960",
+          "duration": "00:02:13",
+          "preview": "http://public.vilynx.com/b2fd1bb42cd7d738cb543aafc02344c9/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/vHq4sN5nlZb3?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_mach",
+          "freeWheel": {
+            "fileName": "d_mach_algorithmics_refugees_180425",
+            "target": {
+              "sect": "news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "133",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-20T18:09:00Z",
+              "videotitle": "This algorithm can help resettle refugees by giving them a better shot at employment",
+              "videoprogram": "mach",
+              "videompxid": "1219005507960",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_mach_algorithmics_refugees_180425",
+              "videocontentrating": "positive",
+              "videoplaylist": "Mach",
+              "videoplaylistid": "nnd_mach"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_mach_algorithmics_refugees_180425",
+              "crossId2": "d_mach_algorithmics_refugees_180425",
+              "program": "mach",
+              "title": "This algorithm can help resettle refugees by giving them a better shot at employment",
+              "length": "133",
+              "airdate": "2018-06-20T18:09:00Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_mach_algorithmics_refugees_180425",
+              "ns_st_cl": "133000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "mach",
+              "ns_st_ep": "This algorithm can help resettle refugees by giving them a better shot at employment",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-04-25T18:26:40Z",
+              "ns_st_tdt": "2018-06-20T18:09:00Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/better/",
+      "type": "Section",
+      "header": "Better",
+      "subHeader": "Simple ways to transform your life at work and at home.",
+      "tease": "https://media2.s-nbcnews.com/i/newscms/2018_20/2431931/appchannelbgbetter_dbde7d623f974cb07318df96b4ced99f.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna889916",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/health/why-mark-bittman-wants-you-be-part-time-vegan-ncna889916",
+          "headline": "Why Mark Bittman wants you to be a part-time vegan",
+          "published": "2018-07-10T22:02:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493426/180710-mark-bittman-ac-548p_29135ad27d7a92b14549dbe55c05e33e.jpg",
+          "summary": "Mark Bittman has a golden rule for eating well: Eat more plants, less junk and fewer animal products and everyone — including the planet — gets healthier.",
+          "label": "FEATURES",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889916",
+              "news.headline": "Why Mark Bittman wants you to be a part-time vegan",
+              "news.contentcategory": "health",
+              "news.subcat1": "features",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T22:02:57Z",
+              "news.modpagepublishdate": "2018-07-10T22:02:00Z",
+              "news.author": "Margaret O'Malley",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "diet-fitness",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:why-mark-bittman-wants-you-be-part-time-vegan-ncna889916"
+            }
+          }
+        },
+        {
+          "id": "ncna889831",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/business/how-build-professional-wardrobe-budget-ncna889831",
+          "headline": "First office job? Here's how to build a work wardrobe on a budget",
+          "published": "2018-07-10T19:51:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493016/180710-better-stock-young-woman-office-ew-1246p_11f54402302d96dbd1a8fcff0bd51cf7.jpg",
+          "summary": "Shop for office-friendly apparel at a fraction of the price.",
+          "label": "PERSONAL FINANCE",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889831",
+              "news.headline": "First office job? Here's how to build a work wardrobe on a budget",
+              "news.contentcategory": "business",
+              "news.subcat1": "personal-finance",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T19:51:47Z",
+              "news.modpagepublishdate": "2018-07-10T19:51:00Z",
+              "news.author": "Nicole Spector",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "careers",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:how-build-professional-wardrobe-budget-ncna889831"
+            }
+          }
+        },
+        {
+          "id": "ncna860521",
+          "type": "article",
+          "url": "https://www.nbcnews.com/better/tech/9-fitness-apps-eliminate-every-single-workout-excuse-ncna860521",
+          "headline": "A fitness app for every workout excuse",
+          "published": "2018-07-10T15:02:52Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_13/2378536/180327-working-out-cellphone-ac-450p_93f970bdb88709538aaf0b27eaa6f302.jpg",
+          "summary": "Name any excuse not to exercise and there's an app for that.",
+          "label": "TECH NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna860521",
+              "news.headline": "A fitness app for every workout excuse",
+              "news.contentcategory": "tech",
+              "news.subcat1": "tech-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-03-27T23:49:04Z",
+              "news.modpagepublishdate": "2018-07-10T15:02:52Z",
+              "news.author": "Rebecca Norris",
+              "news.verticalname": "better",
+              "news.show": "not available",
+              "news.subverticalname": "diet-fitness",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:9-fitness-apps-eliminate-every-single-workout-excuse-ncna860521"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/tech-media",
+      "type": "Section",
+      "header": "Tech and Media",
+      "subHeader": "News and analysis on tech, media and everything in between.",
+      "tease": "https://media3.s-nbcnews.com/i/newscms/2018_12/2369596/appchannelbgthread_2d22203c8549765afb412af557dbef42.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna890366",
+          "type": "article",
+          "url": "https://www.nbcnews.com/business/business-news/wine-wimbledon-personal-touch-courting-corporate-mergers-n890366",
+          "headline": "Wine and Wimbledon: The personal touch in courting corporate mergers",
+          "published": "2018-07-10T20:53:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_28/2493156/180710-sun-valley-bob-iger-tim-cook-2017-ew-239p_05ef5368fbc6cf069dcd535051168440.jpg",
+          "summary": "Gifts, gab and a little bit of liquid encouragement are all part of the corporate romance that can lead to mega-deals.",
+          "label": "BUSINESS NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890366",
+              "news.headline": "Wine and Wimbledon: The personal touch in courting corporate mergers",
+              "news.contentcategory": "business",
+              "news.subcat1": "business-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "the-thread",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T20:53:56Z",
+              "news.modpagepublishdate": "2018-07-10T20:53:00Z",
+              "news.author": "Claire Atkinson",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:wine-wimbledon-personal-touch-courting-corporate-mergers-n890366"
+            }
+          }
+        },
+        {
+          "id": "ncna890206",
+          "type": "article",
+          "url": "https://www.nbcnews.com/business/business-news/ticketmaster-data-theft-part-larger-credit-card-scheme-security-firm-n890206",
+          "headline": "Ticketmaster data breach part of larger credit card scheme, report finds",
+          "published": "2018-07-10T17:33:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2492876/180710-ticketmaster-tickets-ew-1114a_cb09d15f0741e41cb120b3cded80f286.jpg",
+          "summary": "“We’ve identified over 800 victim websites making it likely bigger than any other credit card breach to date,” RiskIQ wrote.",
+          "label": "BUSINESS NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890206",
+              "news.headline": "Ticketmaster data breach part of larger credit card scheme, report finds",
+              "news.contentcategory": "business",
+              "news.subcat1": "business-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "the-thread",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T17:33:20Z",
+              "news.modpagepublishdate": "2018-07-10T17:33:00Z",
+              "news.author": "Jacob Taylor",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:ticketmaster-data-theft-part-larger-credit-card-scheme-security-firm-n890206"
+            }
+          }
+        },
+        {
+          "id": "ncna890016",
+          "type": "article",
+          "url": "https://www.nbcnews.com/tech/tech-news/next-uber-scooter-startups-flood-u-s-cities-funding-pours-n890016",
+          "headline": "The next Uber? Scooter startups flood U.S. cities as funding pours in",
+          "published": "2018-07-09T21:33:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2491731/180709-bird-scooter-san-francisco-njs-1541_0d7cd3431408077aac647d098c7ba8a7.jpg",
+          "summary": "They appeared seemingly overnight: hundreds of two-wheeled electric scooters all over the city of Santa Monica, California.",
+          "label": "TECH NEWS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890016",
+              "news.headline": "The next Uber? Scooter startups flood U.S. cities as funding pours in",
+              "news.contentcategory": "tech",
+              "news.subcat1": "tech-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "the-thread",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-09T21:33:36Z",
+              "news.modpagepublishdate": "2018-07-09T21:33:00Z",
+              "news.author": "Hillel Aron",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:next-uber-scooter-startups-flood-u-s-cities-funding-pours-n890016"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/identities",
+      "type": "Section",
+      "header": "Identities",
+      "subHeader": "Stories about race, gender and identity.",
+      "tease": "https://media3.s-nbcnews.com/i/newscms/2018_12/2369556/appchannelbgidentities_01_6cdb7310d3d1e00da906ff21f029713e.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna885451",
+          "type": "article",
+          "url": "https://www.nbcnews.com/news/nbcblk/fifty-years-after-poor-people-s-campaign-america-s-once-n885451",
+          "headline": "This Mississippi town made MLK cry. 50 years later, it still might.",
+          "published": "2018-06-23T16:26:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_25/2473141/180621-marks-mississippi-cover-mn-1410_8cf49a5e66b934ce4497bb7738a2a46d.jpg",
+          "summary": "Martin Luther King Jr. cried when he visited Marks, Mississippi, in 1968. If he were alive today, \"he may very well still be weeping,\" one official says.",
+          "label": "NBCBLK",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna885451",
+              "news.headline": "This Mississippi town made MLK cry. 50 years later, it still might.",
+              "news.contentcategory": "news",
+              "news.subcat1": "nbcblk",
+              "news.subcat2": "not available",
+              "news.subcat3": "identities",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-06-22T13:24:16Z",
+              "news.modpagepublishdate": "2018-06-23T16:26:00Z",
+              "news.author": "Erik Ortiz",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:fifty-years-after-poor-people-s-campaign-america-s-once-n885451"
+            }
+          }
+        },
+        {
+          "id": "mmvo1259176515571",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/visibility-at-pride-the-pacific-islanders-who-marched-in-1982-1259176515571",
+          "headline": "Visibility at Pride: The Pacific Islanders Who Marched in 1982",
+          "published": "2018-06-20T12:00:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201806/d_ov_aa_searching3_180620.jpg",
+          "summary": "In footage from the 1982 San Francisco Pride Parade, there's a moment where folks march down the street in what looks like Samoan traditional attire. But who are they? (Part 3 of 5, \"Searching for Queer Asian Pacific America\")",
+          "label": "ASIAN AMERICA",
+          "mpxID": "1259176515571",
+          "duration": "00:07:10",
+          "preview": "http://public.vilynx.com/3851cff8f7fb7d5dee4ac7e54447b472/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/bt8_ZINyk4us?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_asianamericapresents",
+          "freeWheel": {
+            "fileName": "d_ov_aa_searching3_180620",
+            "target": {
+              "sect": "news",
+              "topic": "asian-america"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "430",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-20T12:00:00Z",
+              "videotitle": "Visibility at Pride: The Pacific Islanders Who Marched in 1982",
+              "videoprogram": "NBC News",
+              "videompxid": "1259176515571",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_aa_searching3_180620",
+              "videocontentrating": "positive",
+              "videoplaylist": "NBC Asian America Presents",
+              "videoplaylistid": "nnd_asianamericapresents"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_aa_searching3_180620",
+              "crossId2": "d_ov_aa_searching3_180620",
+              "program": "NBC News",
+              "title": "Visibility at Pride: The Pacific Islanders Who Marched in 1982",
+              "length": "430",
+              "airdate": "2018-06-20T12:00:00Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_aa_searching3_180620",
+              "ns_st_cl": "430000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Visibility at Pride: The Pacific Islanders Who Marched in 1982",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-20T13:46:27Z",
+              "ns_st_tdt": "2018-06-20T12:00:00Z"
+            }
+          }
+        },
+        {
+          "id": "ncna884851",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/beyonc-jay-z-s-first-everything-love-music-video-powerful-ncna884851",
+          "headline": "Beyoncé's powerful new music video eloquently subverts white spaces",
+          "published": "2018-06-19T20:54:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_25/2469991/180619-beyonce-jay-z-mn-0830_7ddb58da47e861fa332e1bb6bea27832.jpg",
+          "summary": "We can’t all afford to rent out the Louvre but we can all engage in civil disobedience, regardless of scale.",
+          "label": "OPINION",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna884851",
+              "news.headline": "Beyoncé's powerful new music video eloquently subverts white spaces",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "culture-matters",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-06-19T20:54:12Z",
+              "news.modpagepublishdate": "2018-06-19T20:54:00Z",
+              "news.author": "Kevin Allred",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "hot-take",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:beyonc-jay-z-s-first-everything-love-music-video-powerful-ncna884851"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/global-power",
+      "type": "Section",
+      "header": "Global Power",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369546/appchannelbgglobalpower_219e4bc908d4bb60cb9f3cf97675e8c3.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna890106",
+          "type": "article",
+          "url": "https://www.nbcnews.com/news/world/thai-cave-rescue-operation-underway-rescue-final-5-trapped-n890106",
+          "headline": "All of the Thai boys are freed after cave ordeal",
+          "published": "2018-07-10T19:22:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2492616/180710-thailand-cave-rescue-njs-0830_2322fd705f81b04379eff41c805655db.jpg",
+          "summary": "The plight of the young soccer players and their coach has riveted the country and much of the world since they vanished on June 23.",
+          "label": "WORLD",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890106",
+              "news.headline": "All of the Thai boys are freed after cave ordeal",
+              "news.contentcategory": "news",
+              "news.subcat1": "world",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T06:38:03Z",
+              "news.modpagepublishdate": "2018-07-10T19:22:00Z",
+              "news.author": "Rachel Elbaum , Bill Neely, Associated Press, Tim Stelloh",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:thai-cave-rescue-operation-underway-rescue-final-5-trapped-n890106"
+            }
+          }
+        },
+        {
+          "id": "ncna890151",
+          "type": "article",
+          "url": "https://www.nbcnews.com/storyline/brexit-referendum/brexit-chaos-what-happens-next-british-pm-theresa-may-n890151",
+          "headline": "What's behind the Brexit chaos, and what happens next?",
+          "published": "2018-07-10T13:40:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2492581/180710-world-brexit-placards-0821_f1d1ed6c42ec00fb467302249921bf38.jpg",
+          "summary": "Britain is deadlocked on Brexit Plan A, and has no Plan B.",
+          "label": "WORLD",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890151",
+              "news.headline": "What's behind the Brexit chaos, and what happens next?",
+              "news.contentcategory": "news",
+              "news.subcat1": "world",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T13:28:35Z",
+              "news.modpagepublishdate": "2018-07-10T13:40:00Z",
+              "news.author": "Alastair Jamieson",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:brexit-chaos-what-happens-next-british-pm-theresa-may-n890151"
+            }
+          }
+        },
+        {
+          "id": "ncna888221",
+          "type": "article",
+          "url": "https://www.nbcnews.com/news/world/israeli-shell-killed-amr-samour-gaza-even-though-he-wasn-n888221",
+          "headline": "A widow and father grieve after Israeli shell kills farmer in field",
+          "published": "2018-07-09T07:47:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_27/2484186/180702-gaza-protests-mc-15034_8712ab183d30677f453a0af7cef94857.JPG",
+          "summary": "The life and death of a Palestinian parsley farmer illustrates why so many in Gaza risk their lives to protest Israel's blockade.",
+          "label": "WORLD",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna888221",
+              "news.headline": "A widow and father grieve after Israeli shell kills farmer in field",
+              "news.contentcategory": "news",
+              "news.subcat1": "world",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-09T07:44:54Z",
+              "news.modpagepublishdate": "2018-07-09T07:47:00Z",
+              "news.author": "F. Brinley Bruton , Wajjeh Abu Zarifa ",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:israeli-shell-killed-amr-samour-gaza-even-though-he-wasn-n888221"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "playlist/mmlsnnd_specialfeatures",
+      "type": "Videos",
+      "header": "Special Reports",
+      "videos": [
+        {
+          "id": "mmvo1273744963872",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/inside-housing-of-last-resort-one-immigrant-family-s-life-in-75-square-feet-1273744963872",
+          "headline": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+          "published": "2018-07-10T13:05:17Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_ov_srohousing_180710.jpg",
+          "summary": "Single-room occupancy hotels, or SROs, are the housing of last resort for immigrant families in San Francisco's Chinatown. The fast decline of SROs and the tight supply of other affordable housing are leaving many of these families in limbo.",
+          "label": "ASIAN AMERICA",
+          "mpxID": "1273744963872",
+          "duration": "00:03:44",
+          "preview": "http://public.vilynx.com/c19dfc6aa1068162ff2ef690338d5c80/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/bWZAU3Kfeh_8?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_53296419",
+          "freeWheel": {
+            "fileName": "d_ov_doc_srohousing_180710",
+            "target": {
+              "sect": "news",
+              "topic": "asian-america"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "224",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-10T13:05:17Z",
+              "videotitle": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "videoprogram": "NBC News",
+              "videompxid": "1273744963872",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_srohousing_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "News",
+              "videoplaylistid": "nnd_53296419"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_srohousing_180710",
+              "crossId2": "d_ov_doc_srohousing_180710",
+              "program": "NBC News",
+              "title": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "length": "224",
+              "airdate": "2018-07-10T13:05:17Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_srohousing_180710",
+              "ns_st_cl": "224000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T13:56:57Z",
+              "ns_st_tdt": "2018-07-10T13:05:17Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1270937667875",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/a-bull-so-beloved-his-owners-cloned-him-1270937667875",
+          "headline": "A bull so beloved his owners cloned him",
+          "published": "2018-07-05T21:01:55Z",
+          "tease": "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201807/whitemagicthumb.jpg",
+          "summary": "White Magic was the prized bull of the Steve and Cyndi Gilbert and huge star on the rodeo circuit. When he died, they had him cloned six times, an easy enough procedure done at the Utah State University genetics lab. This is the ballad of White Magic and his clones.",
+          "label": "U.S. NEWS",
+          "mpxID": "1270937667875",
+          "duration": "00:04:01",
+          "preview": "http://public.vilynx.com/e656e8f9b31706c6745ae36cc6748a76/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/n0G2Y6PH0ohK?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_21426262",
+          "freeWheel": {
+            "fileName": "d_ov_doc_whitemagic_180705",
+            "target": {
+              "sect": "news",
+              "topic": "us-news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "241",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-05T21:01:55Z",
+              "videotitle": "A bull so beloved his owners cloned him",
+              "videoprogram": "NBC News",
+              "videompxid": "1270937667875",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_whitemagic_180705",
+              "videocontentrating": "neutral",
+              "videoplaylist": "U.S. News",
+              "videoplaylistid": "nnd_21426262"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_whitemagic_180705",
+              "crossId2": "d_ov_doc_whitemagic_180705",
+              "program": "NBC News",
+              "title": "A bull so beloved his owners cloned him",
+              "length": "241",
+              "airdate": "2018-07-05T21:01:55Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_whitemagic_180705",
+              "ns_st_cl": "241000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "A bull so beloved his owners cloned him",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-05T21:09:13Z",
+              "ns_st_tdt": "2018-07-05T21:01:55Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1268421699616",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/full-house-rising-rents-mean-15-roommates-isn-t-that-weird-anymore-1268421699616",
+          "headline": "Full house: Rising rents mean 15 roommates isn't that weird anymore",
+          "published": "2018-07-02T13:30:15Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_ov_feature_coliving_180614.jpg",
+          "summary": "Thirty-somethings in big cities like San Francisco are turning to communal living, or co-living, to afford rents. Start-up founder Brent Schulkin finds his community with 15 roommates.",
+          "label": "NEWS",
+          "mpxID": "1268421699616",
+          "duration": "00:03:39",
+          "preview": "http://public.vilynx.com/bff2cb64daf12e50dcd02e16a53824b2/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/9cZ8oU6k8Q07?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_57043856",
+          "freeWheel": {
+            "fileName": "d_ov_feature_coliving_180613",
+            "target": {
+              "sect": "digital-docs"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "219",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-02T13:30:15Z",
+              "videotitle": "Full house: Rising rents mean 15 roommates isn't that weird anymore",
+              "videoprogram": "NBC News",
+              "videompxid": "1268421699616",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_feature_coliving_180613",
+              "videocontentrating": "positive",
+              "videoplaylist": "Digital Docs",
+              "videoplaylistid": "nnd_57043856"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_feature_coliving_180613",
+              "crossId2": "d_ov_feature_coliving_180613",
+              "program": "NBC News",
+              "title": "Full house: Rising rents mean 15 roommates isn't that weird anymore",
+              "length": "219",
+              "airdate": "2018-07-02T13:30:15Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_feature_coliving_180613",
+              "ns_st_cl": "219000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Full house: Rising rents mean 15 roommates isn't that weird anymore",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-02T14:02:15Z",
+              "ns_st_tdt": "2018-07-02T13:30:15Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1266951747600",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/-hard-to-believe-it-s-over-how-a-decision-by-walmart-led-to-the-end-of-an-american-dairy-farm-1266951747600",
+          "headline": "'Hard to believe it’s over': The last days of an American dairy farm",
+          "published": "2018-06-29T15:46:23Z",
+          "tease": "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201806/d_ov_DAIRY_180629.jpg",
+          "summary": "Since 1970, more than 90 percent of all U.S. dairy farms have closed due to low milk prices and industry restructuring. Recently, a corporate decision by Walmart led to the shutdown of a three-generation family-run dairy farm in Kentucky. We followed the Coombs family as they're forced to sell off the last of their dairy cows and try to make sense of what's ahead.",
+          "label": "U.S. NEWS",
+          "mpxID": "1266951747600",
+          "duration": "00:08:51",
+          "preview": "http://public.vilynx.com/f88b4bd591f1c82214e9e585fde9c508/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/UnGqUPE82Uw7?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_21426262",
+          "freeWheel": {
+            "fileName": "d_ov_DAIRY_180629",
+            "target": {
+              "sect": "news",
+              "topic": "us-news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "531",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-29T15:46:23Z",
+              "videotitle": "'Hard to believe it’s over': The last days of an American dairy farm",
+              "videoprogram": "NBC News",
+              "videompxid": "1266951747600",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_DAIRY_180629",
+              "videocontentrating": "neutral",
+              "videoplaylist": "U.S. News",
+              "videoplaylistid": "nnd_21426262"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_DAIRY_180629",
+              "crossId2": "d_ov_DAIRY_180629",
+              "program": "NBC News",
+              "title": "'Hard to believe it’s over': How a decision by Walmart led to the end of an American dairy farm",
+              "length": "531",
+              "airdate": "2018-06-29T15:46:23Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_DAIRY_180629",
+              "ns_st_cl": "531000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "'Hard to believe it’s over': The last days of an American dairy farm",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-29T16:05:23Z",
+              "ns_st_tdt": "2018-06-29T15:46:23Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1264486979727",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/-we-feel-marginalized-we-feel-discriminated-fema-ends-housing-support-puerto-ricans-displaced-by-hurricane-maria-1264486979727",
+          "headline": "'We feel marginalized, we feel discriminated': FEMA ends temporary housing support and evicts displaced Puerto Ricans",
+          "published": "2018-06-26T19:43:10Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201806/d_ov_doc_pr_fema_180626__184706.jpg",
+          "summary": "Maria Baez-Claudio and her grandson, Christian Dariel fled Puerto Rico after Hurricane Maria. They’re part of the estimated 2,000 families still living in hotels with vouchers provided by FEMA but that program is now coming to an end.",
+          "label": "U.S. NEWS",
+          "mpxID": "1264486979727",
+          "duration": "00:08:03",
+          "preview": "http://public.vilynx.com/3899461821edfa6e147bfbf0ee4487d4/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/xHqV578jOvwa?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_trendingott",
+          "freeWheel": {
+            "fileName": "d_ov_doc_PR_fema_180626",
+            "target": {
+              "sect": "news",
+              "topic": "us-news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "483",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-26T19:43:10Z",
+              "videotitle": "'We feel marginalized, we feel discriminated': FEMA ends temporary housing support and evicts displaced Puerto Ricans",
+              "videoprogram": "NBC News",
+              "videompxid": "1264486979727",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_PR_fema_180626",
+              "videocontentrating": "neutral",
+              "videoplaylistid": "nnd_trendingott"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_PR_fema_180626",
+              "crossId2": "d_ov_doc_PR_fema_180626",
+              "program": "NBC News",
+              "title": "'We feel marginalized, we feel discriminated': FEMA ends housing support for Puerto Ricans displaced by Hurricane Maria",
+              "length": "483",
+              "airdate": "2018-06-26T19:43:10Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_PR_fema_180626",
+              "ns_st_cl": "483000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "'We feel marginalized, we feel discriminated': FEMA ends temporary housing support and evicts displaced Puerto Ricans",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-26T20:19:42Z",
+              "ns_st_tdt": "2018-06-26T19:43:10Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1263803459935",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/inside-nyc-s-riskiest-playground-where-parents-aren-t-allowed-inside-1263803459935",
+          "headline": "No parents allowed: Inside New York City's riskiest playground",
+          "published": "2018-06-25T23:37:26Z",
+          "tease": "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201806/180625-adventure-playground-dk-1352.jpeg",
+          "summary": "On Governors Island, just off Manhattan's southern shore, is The Yard — a 50,000 square foot adventure playground where kids are encouraged to take risks and parents aren't allowed inside.",
+          "label": "KIDS' HEALTH",
+          "mpxID": "1263803459935",
+          "duration": "00:02:24",
+          "preview": "http://public.vilynx.com/4367c8bb133865e09ae78911eec56946/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/kellsivZOIdR?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_53296419",
+          "freeWheel": {
+            "fileName": "d_ov_feature_riskyplay_180625",
+            "target": {
+              "sect": "health",
+              "topic": "kids-health"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "144",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-25T23:37:26Z",
+              "videotitle": "No parents allowed: Inside New York City's riskiest playground",
+              "videoprogram": "NBC News",
+              "videompxid": "1263803459935",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_feature_riskyplay_180625",
+              "videocontentrating": "positive",
+              "videoplaylist": "News",
+              "videoplaylistid": "nnd_53296419"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_feature_riskyplay_180625",
+              "crossId2": "d_ov_feature_riskyplay_180625",
+              "program": "NBC News",
+              "title": "No parents allowed: Inside New York City's riskiest playground",
+              "length": "144",
+              "airdate": "2018-06-25T23:37:26Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_feature_riskyplay_180625",
+              "ns_st_cl": "144000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "No parents allowed: Inside New York City's riskiest playground",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-26T15:34:40Z",
+              "ns_st_tdt": "2018-06-25T23:37:26Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1262051907981",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/-at-capacity-asylum-seekers-face-standoff-at-border-between-ciudad-juarez-and-el-paso-1262051907981",
+          "headline": "'At capacity': Asylum seekers face standoff at border between Ciudad Juarez and El Paso",
+          "published": "2018-06-22T21:15:57Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201806/bridge_2.jpg",
+          "summary": "In the past month, Customs and Border Protection agents have been stopping migrants at the beginning of the bridge in Ciudad Juarez, Mexico, rather than at the alternate end in El Paso, Texas. This change has sparked a new debate whether the federal government is trying to deter migrants from entering the U.S.",
+          "label": "IMMIGRATION",
+          "mpxID": "1262051907981",
+          "duration": "00:03:04",
+          "preview": "http://public.vilynx.com/15dcf5628e6cdb6252b5ac630d4a9d7d/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/6mDoYOSOzPU2?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_immigration",
+          "freeWheel": {
+            "fileName": "d_ov_feature_bridge_180622",
+            "target": {
+              "sect": "politics",
+              "topic": "immigration"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "184",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-22T21:15:57Z",
+              "videotitle": "'At capacity': Asylum seekers face standoff at border between Ciudad Juarez and El Paso",
+              "videoprogram": "NBC News",
+              "videompxid": "1262051907981",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_feature_bridge_180622",
+              "videocontentrating": "negative",
+              "videoplaylist": "Immigration issues",
+              "videoplaylistid": "nnd_immigration"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_feature_bridge_180622",
+              "crossId2": "d_ov_feature_bridge_180622",
+              "program": "NBC News",
+              "title": "'At capacity': Asylum seekers face standoff at border between Ciudad Juarez and El Paso",
+              "length": "184",
+              "airdate": "2018-06-22T21:15:57Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_feature_bridge_180622",
+              "ns_st_cl": "184000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "'At capacity': Asylum seekers face standoff at border between Ciudad Juarez and El Paso",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-22T21:38:17Z",
+              "ns_st_tdt": "2018-06-22T21:15:57Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1260063811899",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/michigan-mom-shares-account-of-caring-for-migrant-children-separated-from-parents-1260063811899",
+          "headline": "Michigan mom shares account of caring for migrant children separated from parents",
+          "published": "2018-06-20T16:04:51Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201806/fostermothertease.jpg",
+          "summary": "Christine, a foster mother in Michigan who has been taking in unaccompanied migrant children since 2016, shares her experiences taking care of children who are being separated from their parents at the border.",
+          "label": "IMMIGRATION",
+          "mpxID": "1260063811899",
+          "duration": "00:01:59",
+          "preview": "http://public.vilynx.com/367ff9aee342632daeb8a05143ac7862/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/aEmfU5L698nn?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_immigration",
+          "freeWheel": {
+            "fileName": "d_ov_feature_fostermom_180620",
+            "target": {
+              "sect": "politics",
+              "topic": "immigration"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "119",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-20T16:04:51Z",
+              "videotitle": "Michigan mom shares account of caring for migrant children separated from parents",
+              "videoprogram": "NBC News",
+              "videompxid": "1260063811899",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_feature_fostermom_180620",
+              "videocontentrating": "negative",
+              "videoplaylist": "Immigration issues",
+              "videoplaylistid": "nnd_immigration"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_feature_fostermom_180620",
+              "crossId2": "d_ov_feature_fostermom_180620",
+              "program": "NBC News",
+              "title": "Michigan mom shares account of caring for migrant children separated from parents",
+              "length": "119",
+              "airdate": "2018-06-20T16:04:51Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_feature_fostermom_180620",
+              "ns_st_cl": "119000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Michigan mom shares account of caring for migrant children separated from parents",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-20T17:10:31Z",
+              "ns_st_tdt": "2018-06-20T16:04:51Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1258222659987",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/the-movement-to-arm-teachers-1258222659987",
+          "headline": "After Parkland, some teachers turn to firearm training",
+          "published": "2018-06-18T14:44:39Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201806/d_ov_doc_armedteachers_1806180.jpg",
+          "summary": "Since the shooting at Marjory Stoneman Douglas High School in February, a divisive idea has gained momentum as a way to stem school shootings: arm teachers. At some schools in Ohio, armed teachers have been in classrooms for as many as five years, since the aftermath of the shooting at Sandy Hook Elementary.",
+          "label": "U.S. NEWS",
+          "mpxID": "1258222659987",
+          "duration": "00:10:02",
+          "preview": "http://public.vilynx.com/9cc5bb4879760eebdb4e13107b4c713d/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/_HqCN4bLShiC?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_21426262",
+          "freeWheel": {
+            "fileName": "d_ov_doc_armedteachers_180618",
+            "target": {
+              "sect": "news",
+              "topic": "us-news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "602",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-18T14:44:39Z",
+              "videotitle": "After Parkland, some teachers turn to firearm training",
+              "videoprogram": "NBC News",
+              "videompxid": "1258222659987",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_armedteachers_180618",
+              "videocontentrating": "negative",
+              "videoplaylist": "U.S. News",
+              "videoplaylistid": "nnd_21426262"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_armedteachers_180618",
+              "crossId2": "d_ov_doc_armedteachers_180618",
+              "program": "NBC News",
+              "title": "The movement to arm teachers",
+              "length": "602",
+              "airdate": "2018-06-18T14:44:39Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_armedteachers_180618",
+              "ns_st_cl": "602000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "After Parkland, some teachers turn to firearm training",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-18T14:55:18Z",
+              "ns_st_tdt": "2018-06-18T14:44:39Z"
+            }
+          }
+        },
+        {
+          "id": "mmvo1255741507662",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/escape-from-abuse-a-teenage-refugee-s-fight-for-survival-1255741507662",
+          "headline": "Escape from abuse: A teenage refugee’s fight for survival",
+          "published": "2018-06-14T15:49:07Z",
+          "tease": "https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201806/d_ov_doc_fatima_1806230.jpg",
+          "summary": "Still a teenager, Fatima fled her life in Afghanistan when her father attempted to marry her off to gain political influence. Now living in Turkey, she shares her story of escape and new life as a refugee.",
+          "label": "WORLD",
+          "mpxID": "1255741507662",
+          "duration": "00:05:35",
+          "preview": "http://public.vilynx.com/ef2ff2362849a0b68b089741f1d6fe52/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/4QaP6CAcNdi_?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmls3dq7_7QKiCO_",
+          "freeWheel": {
+            "fileName": "d_ov_doc_fatima_180614",
+            "target": {
+              "sect": "news",
+              "topic": "world"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "335",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-06-14T15:49:07Z",
+              "videotitle": "Escape from abuse: A teenage refugee’s fight for survival",
+              "videoprogram": "NBC News",
+              "videompxid": "1255741507662",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_fatima_180614",
+              "videocontentrating": "negative",
+              "videoplaylist": "U.S. and World News",
+              "videoplaylistid": "3dq7_7QKiCO_"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_fatima_180614",
+              "crossId2": "d_ov_doc_fatima_180614",
+              "program": "NBC News",
+              "title": "Escape from abuse: A teenage refugee’s fight for survival",
+              "length": "335",
+              "airdate": "2018-06-14T15:49:07Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_fatima_180614",
+              "ns_st_cl": "335000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Escape from abuse: A teenage refugee’s fight for survival",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-06-15T13:59:32Z",
+              "ns_st_tdt": "2018-06-14T15:49:07Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/decision-2018",
+      "type": "Section",
+      "header": "Decision 2018",
+      "tease": "https://media3.s-nbcnews.com/i/newscms/2018_12/2369586/appchannelbgpolitics_556d02c389df53d530a8ad1e80e8ef11.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna889961",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/elections/secret-tape-recordings-rock-georgia-governor-race-n889961",
+          "headline": "Secret tape recordings rock Georgia governor race",
+          "published": "2018-07-09T19:55:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2491756/18709-casey-cagle-al-1608_823210889d5f162e8bee1fae3d24ba8c.jpg",
+          "summary": "Georgia GOP gubernatorial candidate Lt. Gov. Casey Cagle can be heard saying the Republican primary had devolved into \"who could be the craziest.\"",
+          "label": "ELECTIONS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889961",
+              "news.headline": "Secret tape recordings rock Georgia governor race",
+              "news.contentcategory": "politics",
+              "news.subcat1": "elections",
+              "news.subcat2": "not available",
+              "news.subcat3": "decision-2018",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-09T19:55:56Z",
+              "news.modpagepublishdate": "2018-07-09T19:55:00Z",
+              "news.author": "Associated Press",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:secret-tape-recordings-rock-georgia-governor-race-n889961"
+            }
+          }
+        },
+        {
+          "id": "ncna889951",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/elections/candidate-uses-yacht-campaign-hits-rock-requires-coast-guard-rescue-n889951",
+          "headline": "Candidate uses his yacht to campaign, hits rock, requires Coast Guard rescue",
+          "published": "2018-07-09T19:41:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_28/2491671/180709-joe-trillo-dk-1509_4fcd3b6a1e605849278bde79e7b789b0.jpg",
+          "summary": "The former Republican lawmaker is running as an independent and has said President Donald Trump inspired his gubernatorial run.",
+          "label": "ELECTIONS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889951",
+              "news.headline": "Candidate uses his yacht to campaign, hits rock, requires Coast Guard rescue",
+              "news.contentcategory": "politics",
+              "news.subcat1": "elections",
+              "news.subcat2": "not available",
+              "news.subcat3": "decision-2018",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-09T19:35:44Z",
+              "news.modpagepublishdate": "2018-07-09T19:41:00Z",
+              "news.author": "Associated Press",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:candidate-uses-yacht-campaign-hits-rock-requires-coast-guard-rescue-n889951"
+            }
+          }
+        },
+        {
+          "id": "ncna889741",
+          "type": "article",
+          "url": "https://www.nbcnews.com/think/opinion/democrats-ignore-left-their-peril-midwesterners-aren-t-scared-socialism-ncna889741",
+          "headline": "Democrats' irrational fear of socialism ignores decades of liberal history",
+          "published": "2018-07-09T08:32:00Z",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_26/2478691/180626-alexandria-ocasio-cortez-primary-ac-1156p_457ce190659b364eb6f0b441e67bf994.jpg",
+          "summary": "Some members of the Democratic establishment argue that bold, left-wing platforms can't win elections. They're wrong.",
+          "label": "OPINION",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889741",
+              "news.headline": "Democrats' irrational fear of socialism ignores decades of liberal history",
+              "news.contentcategory": "opinion",
+              "news.subcat1": "opinion",
+              "news.subcat2": "not available",
+              "news.subcat3": "decision-2018",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-09T08:32:45Z",
+              "news.modpagepublishdate": "2018-07-09T08:32:00Z",
+              "news.author": "Carlos Ramirez-Rosa",
+              "news.verticalname": "think",
+              "news.show": "not available",
+              "news.subverticalname": "thought-experiment",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:democrats-ignore-left-their-peril-midwesterners-aren-t-scared-socialism-ncna889741"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/trump-effect",
+      "type": "Section",
+      "header": "Trump Effect",
+      "subHeader": "How President Trump is disrupting American politics and government.",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_20/2431916/appchannelbgtrumpeffect_9e6386db58265a240216a96b85affea8.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "ncna890266",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-nominee-kavanaugh-begins-lobbying-campaign-gop-senators-n890266",
+          "headline": "Closely watched GOP moderate senator speaks favorably of Kavanaugh",
+          "published": "2018-07-10T20:28:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493331/180720-susan-collins-se-444p_5a1120af5d7ff6b9848178b370349237.jpg",
+          "summary": "Sen. Susan Collins, R-Maine, praised the Supreme Court nominee's previous remarks on Roe v. Wade and an opinion related to Obamacare.",
+          "label": "SUPREME COURT",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890266",
+              "news.headline": "Closely watched GOP moderate senator speaks favorably of Kavanaugh",
+              "news.contentcategory": "politics",
+              "news.subcat1": "supreme-court",
+              "news.subcat2": "not available",
+              "news.subcat3": "trump-effect",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T16:28:59Z",
+              "news.modpagepublishdate": "2018-07-10T20:28:00Z",
+              "news.author": "Garrett Haake, Adam Edelman",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:supreme-court-nominee-kavanaugh-begins-lobbying-campaign-gop-senators-n890266"
+            }
+          }
+        },
+        {
+          "id": "ncna889606",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/white-house/trump-s-european-trip-trade-wars-brexit-chaos-russia-quandary-n889606",
+          "headline": "Trump's European trip: Trade wars, Brexit chaos — and a Russia quandary",
+          "published": "2018-07-10T18:58:00Z",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_28/2493216/180710-donald-trump-melania-belgium-arrival-se-339p_4143812b4e4c21625ff16d14c1a62327.jpg",
+          "summary": "The president's allegiance to allies — and his willingness to deliver a tough message to Russian President Vladimir Putin — will be put to the test.",
+          "label": "WHITE HOUSE",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna889606",
+              "news.headline": "Trump's European trip: Trade wars, Brexit chaos — and a Russia quandary",
+              "news.contentcategory": "politics",
+              "news.subcat1": "white-house",
+              "news.subcat2": "not available",
+              "news.subcat3": "global-power",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T16:21:45Z",
+              "news.modpagepublishdate": "2018-07-10T18:58:00Z",
+              "news.author": "Jonathan Allen",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:trump-s-european-trip-trade-wars-brexit-chaos-russia-quandary-n889606"
+            }
+          }
+        },
+        {
+          "id": "ncna890246",
+          "type": "article",
+          "url": "https://www.nbcnews.com/politics/congress/schumer-kavanaugh-i-m-going-fight-nomination-everything-i-ve-n890246",
+          "headline": "Schumer: I'm going to fight the Kavanaugh nomination 'with everything I've got'",
+          "published": "2018-07-10T17:24:00Z",
+          "tease": "https://media4.s-nbcnews.com/i/newscms/2018_28/2493006/180710-chuck-schumer-democrats-supreme-court-se-1237p_7e018ad345238aff061aad6c9b5b9b4a.jpg",
+          "summary": "Democrats said Tuesday they will demand the release of every single record that might be relevant to the nomination, a push that could slow the process.",
+          "label": "CONGRESS",
+          "breaking": false,
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncna890246",
+              "news.headline": "Schumer: I'm going to fight the Kavanaugh nomination 'with everything I've got'",
+              "news.contentcategory": "politics",
+              "news.subcat1": "congress",
+              "news.subcat2": "not available",
+              "news.subcat3": "latest-stories",
+              "news.contentsource": "nbcnews",
+              "news.origpagepublishdate": "2018-07-10T17:10:36Z",
+              "news.modpagepublishdate": "2018-07-10T17:24:00Z",
+              "news.author": "Rebecca Shabad, Garrett Haake",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.nativesponsor": "not available",
+              "news.newpagetype": "article",
+              "news.pagename": "nbcnews:mobile:article:schumer-kavanaugh-i-m-going-fight-nomination-everything-i-ve-n890246"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "curation/web/news/in-focus",
+      "type": "Section",
+      "header": "In Focus",
+      "subHeader": "Documentary journalism",
+      "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369561/appchannelbginfocus_bdcfe2052bc54c39094fc91532bf7bab.jpg",
+      "showMore": true,
+      "items": [
+        {
+          "id": "mmvo1273744963872",
+          "type": "video",
+          "url": "https://www.nbcnews.com/video/inside-housing-of-last-resort-one-immigrant-family-s-life-in-75-square-feet-1273744963872",
+          "headline": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+          "published": "2018-07-10T13:05:17Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/d_ov_srohousing_180710.jpg",
+          "summary": "Single-room occupancy hotels, or SROs, are the housing of last resort for immigrant families in San Francisco's Chinatown. The fast decline of SROs and the tight supply of other affordable housing are leaving many of these families in limbo.",
+          "label": "ASIAN AMERICA",
+          "mpxID": "1273744963872",
+          "duration": "00:03:44",
+          "preview": "http://public.vilynx.com/c19dfc6aa1068162ff2ef690338d5c80/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/bWZAU3Kfeh_8?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_53296419",
+          "freeWheel": {
+            "fileName": "d_ov_doc_srohousing_180710",
+            "target": {
+              "sect": "news",
+              "topic": "asian-america"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "224",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-10T13:05:17Z",
+              "videotitle": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "videoprogram": "NBC News",
+              "videompxid": "1273744963872",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_ov_doc_srohousing_180710",
+              "videocontentrating": "neutral",
+              "videoplaylist": "News",
+              "videoplaylistid": "nnd_53296419"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_ov_doc_srohousing_180710",
+              "crossId2": "d_ov_doc_srohousing_180710",
+              "program": "NBC News",
+              "title": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "length": "224",
+              "airdate": "2018-07-10T13:05:17Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_ov_doc_srohousing_180710",
+              "ns_st_cl": "224000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "NBC News",
+              "ns_st_ep": "Inside housing of last resort: One immigrant family's life in 75 square feet",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T13:56:57Z",
+              "ns_st_tdt": "2018-07-10T13:05:17Z"
+            }
+          }
+        },
+        {
+          "id": "ncsl889701",
+          "type": "slideshow",
+          "url": "https://www.nbcnews.com/slideshow/destructive-wildfires-race-across-u-s-west-n889701",
+          "headline": "Destructive wildfires race across the U.S. West ",
+          "published": "2018-07-08T21:30:00Z",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490656/ss-180708-western-wildfires-07_944d4e158e999061e29c91c23479ac6f.jpg",
+          "summary": "Firefighters toiled in stifling heat Saturday on the lines of wildfires, making progress against some while struggling to tame others.",
+          "label": "U.S. NEWS",
+          "images": [
+            {
+              "id": "ncim2490631",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_28/2490631/ss-180708-western-wildfires-01_d44981a1f621414888e11be0e36a7247.jpg",
+              "headline": "",
+              "published": "2018-07-09T13:52:18Z",
+              "caption": "Firefighter Jay Wilkens monitors a flaming shed and boat as the Holiday fire burns in Goleta, California, on July 7, 2018.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490636",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2490636/ss-180708-western-wildfires-02_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:30Z",
+              "caption": "The sun rises behind a home leveled by the Holiday fire in Goleta, California on Saturday, July 7, 2018. Evacuations were ordered as the fire edged into residential areas.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490641",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490641/ss-180708-western-wildfires-03_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:32Z",
+              "caption": "A charred statuette stands in the remains of a destroyed home in the aftermath of the Holiday Fire on Saturday, July 7, 2018 in Goleta, California. The fire destroyed a number of homes in the community during an intense heat wave which broke various records across Southern California.",
+              "copyright": "Getty Images",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490646",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490646/ss-180708-western-wildfires-04_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:33Z",
+              "caption": "Eric Durtschi surveys the remains of his home, leveled by the Holiday fire, in Goleta, California, on Saturday, July 7, 2018. Durtschi, who has six children, said he moved with his family from Utah two weeks ago.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490651",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2490651/ss-180708-western-wildfires-05_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:35Z",
+              "caption": "A burnt car sits among the remains of a home that was destroyed by the Holiday Fire in Goleta, California on July 7, 2018.",
+              "copyright": "EPA",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490656",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490656/ss-180708-western-wildfires-07_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:36Z",
+              "caption": "A firefighter battle flames at the Alpine Oaks Estates mobile home park during a wildfire Friday, July 6, 2018, in Alpine, California. Dozens of fires are burning across the dry American West, fueled by rising temperatures and gusty winds that were expected to last through the weekend.",
+              "copyright": "The San Diego Union-Tribune via AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490701",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2490701/ss-180708-western-wildfires-08_459aa97d23ba475b040b64dfcb9b007f.jpg",
+              "headline": "",
+              "published": "2018-07-08T20:05:52Z",
+              "caption": "Firefighters watch as flames from the County Fire climb a hillside in Guinda, California, on July 1, 2018. \r\nCalifornian authorities have issued red flag weather warnings and mandatory evacuation orders after a series of wildfires fanned by high winds and hot temperatures ripped through thousands of acres. The latest blaze, the County Fire sparked in Yolo County on June 30, had by July 1 afternoon spread across 22,000 acres (9,000 hectares) with zero percent containment, according to Cal Fire.",
+              "copyright": "AFP - Getty Images",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490666",
+              "url": "https://media4.s-nbcnews.com/i/newscms/2018_27/2490666/ss-180708-western-wildfires-10_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:40Z",
+              "caption": "Flames from the County fire burn above Cache Creek Casino Resort on Saturday, June 30, 2018, in Capay, California.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490661",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490661/ss-180708-western-wildfires-09_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:38Z",
+              "caption": "A firefighter scrambles to stop a wildfire as wind drives embers across Highway 20 near Clearlake Oaks, California on Sunday, July 1, 2018.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490671",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490671/ss-180708-western-wildfires-11_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:42Z",
+              "caption": "Celia Corona and her son Marco embrace as they sleep after evacuating from a wildfire in El Jebel, Colorado on Thursday, July 5, 2018, at the Basalt High School, in Basalt, Colorado.",
+              "copyright": "AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490676",
+              "url": "https://media1.s-nbcnews.com/i/newscms/2018_27/2490676/ss-180708-western-wildfires-12_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:43Z",
+              "caption": "A plane drops fire retardant on the Lake Christine wildfire in Basalt, Colorado on July 4, 2018.",
+              "copyright": "The Aspen Times via AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490681",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2490681/ss-180708-western-wildfires-13_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:45Z",
+              "caption": "Craig Hotshots firefighters take a break from battling the Weston Pass Fire, Monday, July 2, 2018, near Fairplay, Colorado. In Colorado, more than 2,500 homes were under evacuation orders as firefighters battled more than a half-dozen wildfires.",
+              "copyright": "Summit Daily News via AP v",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490686",
+              "url": "https://media2.s-nbcnews.com/i/newscms/2018_27/2490686/ss-180708-western-wildfires-14_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:46Z",
+              "caption": "Smoke rises from a wildfire near Strawberry Reservoir in Utah, Thursday, July 5, 2018.",
+              "copyright": "The Deseret News via AP",
+              "graphic": false
+            },
+            {
+              "id": "ncim2490691",
+              "url": "https://media3.s-nbcnews.com/i/newscms/2018_27/2490691/ss-180708-western-wildfires-15_944d4e158e999061e29c91c23479ac6f.jpg",
+              "headline": "",
+              "published": "2018-07-08T19:57:48Z",
+              "caption": "Burned structures caused by a wildfire near Duchesne, Utah, Thursday, July 5, 2018.",
+              "copyright": "The Deseret News via AP",
+              "graphic": false
+            }
+          ],
+          "tracking": {
+            "adobe": {
+              "news.docid": "ncsl889701",
+              "news.headline": "Destructive wildfires race across the U.S. West ",
+              "news.contentcategory": "news",
+              "news.subcat1": "us-news",
+              "news.subcat2": "not available",
+              "news.subcat3": "in-focus",
+              "news.contentsource": "not available",
+              "news.origpagepublishdate": "2018-07-08T21:28:00Z",
+              "news.modpagepublishdate": "2018-07-08T21:30:00Z",
+              "news.author": "not available",
+              "news.verticalname": "news",
+              "news.show": "not available",
+              "news.subverticalname": "not available",
+              "news.newpagetype": "slideshow",
+              "news.pagename": "nbcnews:mobile:slideshow:destructive-wildfires-race-across-u-s-west-n889701"
+            }
+          }
+        },
+        {
+          "id": "mmvo1273039427699",
+          "type": "video",
+          "url": "https://www.nbcnews.com/mach/video/realizing-the-dream-of-space-astronaut-peggy-whitson-on-leaving-earth-for-the-first-time-1273039427699",
+          "headline": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+          "published": "2018-07-09T15:14:29Z",
+          "tease": "https://media4.s-nbcnews.com/i/MSNBC/Components/Video/201807/peggy_whitson_iss_cupola__236885.jpg",
+          "summary": "Peggy Whitson made history several times in her career as an astronaut. She spent a record-breaking 665 days in space and became the first woman to command the ISS. In this interview, she describes her historic first spaceflight.",
+          "label": "MAKING OF AN ASTRONAUT",
+          "mpxID": "1273039427699",
+          "duration": "00:03:38",
+          "preview": "http://public.vilynx.com/5bb888e80938d2f76ab410e5f7b2bece/pro23.viwindow.mp4",
+          "videoUrl": "http://link.theplatform.com/s/2E2eJC/Tit8SwPA1Gui?mbr=true&manifest=m3u&metafile=none",
+          "associatedPlaylist": "playlist/mmlsnnd_mach",
+          "freeWheel": {
+            "fileName": "d_mach_astronaut_peggy1_180709",
+            "target": {
+              "sect": "news"
+            }
+          },
+          "tracking": {
+            "adobe": {
+              "a.media.length": "218",
+              "videocontenttype": "Video",
+              "videocontentsource": "nbcnews",
+              "videopublishdate": "2018-07-09T15:14:29Z",
+              "videotitle": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "videoprogram": "mach",
+              "videompxid": "1273039427699",
+              "videocliptype": "broadcast",
+              "videonetwork": "NBC News",
+              "videoguid": "d_mach_astronaut_peggy1_180709",
+              "videocontentrating": "positive",
+              "videoplaylist": "Mach",
+              "videoplaylistid": "nnd_mach"
+            },
+            "nielsen": {
+              "type": "content",
+              "assetid": "d_mach_astronaut_peggy1_180709",
+              "crossId2": "d_mach_astronaut_peggy1_180709",
+              "program": "mach",
+              "title": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "length": "218",
+              "airdate": "2018-07-09T15:14:29Z",
+              "isfullepisode": "n"
+            },
+            "comscore": {
+              "ns_st_ci": "d_mach_astronaut_peggy1_180709",
+              "ns_st_cl": "218000",
+              "ns_st_pu": "nbcnews",
+              "ns_st_pr": "mach",
+              "ns_st_ep": "Realizing the dream of space: Astronaut Peggy Whitson on leaving Earth for the first time",
+              "ns_st_sn": "*null",
+              "ns_st_en": "*null",
+              "ns_st_ge": "News",
+              "ns_st_ti": "*null",
+              "ns_st_ia": "0",
+              "ns_st_ce": "0",
+              "ns_st_ddt": "2018-07-10T12:02:04Z",
+              "ns_st_tdt": "2018-07-09T15:14:29Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Channels",
+      "header": "Channels",
+      "items": [
+        {
+          "id": "curation/web/news/latest-stories",
+          "header": "Latest News",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369566/appchannelbglatest_eb6eb561e2ec9f285905befa66212520.jpg"
+        },
+        {
+          "id": "curation/web/news/immigration-border-crisis",
+          "header": "Border Crisis",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_25/2470386/180619-border-crisis-channel-njs-1337_2c0bd888cafed1276ee1a63fb6155cc3.jpg"
+        },
+        {
+          "id": "curation/web/news/decision-2018",
+          "header": "Decision 2018",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_10/2357711/politics_card_68bb02103b6f6bddc1df99b607460e57.jpg"
+        },
+        {
+          "id": "curation/web/news/global-power",
+          "header": "Global Power",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369546/appchannelbgglobalpower_219e4bc908d4bb60cb9f3cf97675e8c3.jpg"
+        },
+        {
+          "id": "curation/web/news/identities",
+          "header": "Identities",
+          "tease": "https://media3.s-nbcnews.com/i/newscms/2018_12/2369556/appchannelbgidentities_01_6cdb7310d3d1e00da906ff21f029713e.jpg"
+        },
+        {
+          "id": "curation/web/think",
+          "header": "Think",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_21/2442746/appchannelbgthink_f8e669d83eafe85a2eb9c4b022b779aa.jpg"
+        },
+        {
+          "id": "curation/web/better",
+          "header": "Better",
+          "tease": "https://media2.s-nbcnews.com/i/newscms/2018_20/2431931/appchannelbgbetter_dbde7d623f974cb07318df96b4ced99f.jpg"
+        },
+        {
+          "id": "curation/web/news/guns-in-america",
+          "header": "Guns in America",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369551/appchannelbggunsinamerica_47cb4404c088b6bf33a1545f35557462.jpg"
+        },
+        {
+          "id": "curation/web/news/culture-matters",
+          "header": "Culture Matters",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2368391/appchannelbgculture_e0c71cff229c0115e80f8f3fce9dcd0e.jpg"
+        },
+        {
+          "id": "curation/web/news/in-focus",
+          "header": "In Focus",
+          "tease": "https://media1.s-nbcnews.com/i/newscms/2018_12/2369561/appchannelbginfocus_bdcfe2052bc54c39094fc91532bf7bab.jpg"
+        }
+      ]
+    }
+  ],
+  "tracking": {
+    "adobe": {
+      "news.contentcategory": "cover",
+      "news.newpagetype": "cover",
+      "news.pagename": "nbcnews:mobile:front:cover"
+    }
+  }
+}

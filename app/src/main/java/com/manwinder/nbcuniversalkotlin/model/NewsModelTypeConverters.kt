@@ -28,17 +28,16 @@ class NewsCaptionTypeConverters {
     private val gson = Gson()
 
     @TypeConverter
-    fun newsCaptionToList(newsCaptionData: String?) : List<NewsCaptions>? {
+    fun newsCaptionToObject(newsCaptionData: String?) : NewsCaptions? {
         newsCaptionData ?: run {
-            return Collections.emptyList()
+            return null
         }
-        val listType = object : TypeToken<List<NewsCaptions>>() {}.type
 
-        return gson.fromJson(newsCaptionData, listType)
+        return gson.fromJson(newsCaptionData, NewsCaptions::class.java)
     }
 
     @TypeConverter
-    fun newsCaptionListToString(newsCaptionList: List<NewsCaptions>?): String? {
-        return gson.toJson(newsCaptionList)
+    fun newsCaptionToString(newsCaption: NewsCaptions?): String? {
+        return gson.toJson(newsCaption)
     }
 }

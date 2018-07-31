@@ -13,6 +13,8 @@ class NewsResponse (
 class NewsData (
     val id: String,
     val type: String,
+    val item: NewsItem? = null,
+    val videos: List<NewsItem>? = null,
     val items: List<NewsItem>?,
     val showMore: Boolean?,
     val tease: String?,
@@ -25,20 +27,20 @@ class NewsData (
 data class NewsItem (
     @PrimaryKey
     val id: String,
-    val type: String?,
-    val url: String?,
-    val headline: String?,
-    val published: String?,
-    val tease: String?,
-    val summary: String?,
-    val label: String?,
-    val images: List<SlideShowImage>?,
-    val mpxID: String?,
-    val duration: String?,
-    val preview: String?,
-    val videoUrl: String?,
-    val captionLinks: List<NewsCaptions>?,
-    val associatedPlaylist: String?
+    val type: String? = null,
+    val url: String? = null,
+    val headline: String? = null,
+    val published: String? = null,
+    val tease: String? = null,
+    val summary: String? = null,
+    val label: String? = null,
+    val images: List<SlideShowImage>? = null,
+    val mpxID: String? = null,
+    val duration: String? = null,
+    val preview: String? = null,
+    val videoUrl: String? = null,
+    val captionLinks: NewsCaptions? = null,
+    val associatedPlaylist: String? = null
 )
 
 class NewsCaptions (

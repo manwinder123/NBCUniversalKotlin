@@ -19,14 +19,20 @@ interface NewsItemDao {
     @Update
     fun update(newsItem: NewsItem)
 
-    @Query("SELECT * FROM news_items")
-    fun getNewsItems() : LiveData<List<NewsItem>>
-
     @Query("SELECT Count(*) FROM news_items WHERE id =:id")
     fun hasID(id: String) : Int
 
+    @Query("SELECT * FROM news_items")
+    fun getNewsItemsLiveData() : LiveData<List<NewsItem>>
+
     @Query("SELECT * FROM news_items ORDER BY published DESC")
-    fun getNewsItemsInOrder() : LiveData<List<NewsItem>>
+    fun getNewsItemsInOrderLiveData() : LiveData<List<NewsItem>>
+
+    @Query("SELECT * FROM news_items")
+    fun getNewsItems() : List<NewsItem>
+
+    @Query("SELECT * FROM news_items ORDER BY published DESC")
+    fun getNewsItemsInOrder() : List<NewsItem>
 
     @Query("SELECT Count(*) FROM news_items")
     fun getNumOfNewsItems() : Int

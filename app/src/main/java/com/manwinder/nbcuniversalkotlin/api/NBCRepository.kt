@@ -28,12 +28,18 @@ class NBCRepository(private var nbcApi: NBCApi, private var newsItemDao: NewsIte
 
                         }
                     }
+                    newsData.videos?.forEach { newsItem ->
+                        newsItemDao.insert(newsItem)
+                    }
+                    newsData.item?.let { newsItem ->
+                        newsItemDao.insert(newsItem)
+                    }
                 }
             }
 
             override fun shouldFetch(data: List<NewsItem>?): Boolean = true
 
-            override fun loadFromDb(): LiveData<List<NewsItem>> = newsItemDao.getNewsItemsInOrder()
+            override fun loadFromDb(): LiveData<List<NewsItem>> = newsItemDao.getNewsItemsInOrderLiveData()
 
             override fun createCall(): LiveData<Resource<NewsResponse>> = nbcApi.getNewsItems()
 
