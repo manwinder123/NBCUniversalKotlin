@@ -31,16 +31,26 @@ class VideoFragment : Fragment() {
             loading_bar_video.show()
         }
 
-        loadVideo()
+        savedInstanceState?.let {
+            loadVideo(savedInstanceState.getLong("time"))
+        } ?: run {
+            loadVideo()
+        }
     }
 
-    private fun loadVideo() {
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putLong("time", video.currentPosition)
+        super.onSaveInstanceState(outState)
+    }
+
+    private fun loadVideo(time : Long = 0) {
         arguments?.let {
             val url = it.getString("URL")
 
             video.setOnPreparedListener {
-                video.start()
                 loading_bar_video.hide()
+                video.seekTo(time)
+                video.start()
             }
 
             Fuel.download(url).destination { _, _ ->
@@ -49,6 +59,7 @@ class VideoFragment : Fragment() {
                 val str = String(result.get(), Charset.defaultCharset())
                 val arr = str.split("\n")
                 video.setVideoURI(Uri.parse(arr[arr.size - 2]))
+//                video.setPositionOffset(time)
             }
         }
     }
