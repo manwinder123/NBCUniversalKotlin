@@ -2,8 +2,7 @@ package com.manwinder.nbcuniversalkotlin.ui
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.*
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,5 +33,8 @@ class SlideShowFragment : Fragment() {
         slide_show.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val slideShowAdapter = SlideShowAdapter(slideShowList)
         slide_show.adapter = slideShowAdapter
+
+        val helper = PagerSnapHelper()
+        helper.attachToRecyclerView(slide_show)
     }
 }

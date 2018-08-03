@@ -45,15 +45,21 @@ class MainActivity : AppCompatActivity() {
         news_feed.adapter = newsFeedAdapter
         news_feed.addItemDecoration(DividerItemDecoration(news_feed.context, DividerItemDecoration.VERTICAL))
 
-        swipe_refresh_layout.isRefreshing = true
+        if (supportFragmentManager.backStackEntryCount == 0) {
+            swipe_refresh_layout.isRefreshing = true
+        }
         fab.hide()
 
         val newsItemObserver = Observer<Resource<List<NewsItem>?>> { resource->
             when(resource?.status) {
                 Status.SUCCESS -> {
-                    changeSnackbarText("News updated")
-                    swipe_refresh_layout.isRefreshing = false
-                    fab.show()
+
+                    // keeps refresh circle and fab hidden in fragments, this will run in fragments on orientation change
+                    if (supportFragmentManager.backStackEntryCount == 0) {
+                        swipe_refresh_layout.isRefreshing = false
+                        changeSnackbarText("News updated")
+                        fab.show()
+                    }
 
                     resource.data?.let { newsItemList ->
                         newsItemsList.addAll(newsItemList)
@@ -88,13 +94,14 @@ class MainActivity : AppCompatActivity() {
         // Shows/hides the fab on scroll
         news_feed.addOnScrollListener(object: RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
-                if (dy > 0 || dy < 0 && fab.isShown) {
+                if (dy > 0 || dy < 0 && fab.isShown && supportFragmentManager.backStackEntryCount == 0) {
                     fab.hide()
                 }
             }
 
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
-                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+
+                if (newState == RecyclerView.SCROLL_STATE_IDLE && supportFragmentManager.backStackEntryCount == 0) {
                     fab.show()
                 }
                 super.onScrollStateChanged(recyclerView, newState)
