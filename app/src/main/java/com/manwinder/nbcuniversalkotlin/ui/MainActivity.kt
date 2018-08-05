@@ -47,13 +47,14 @@ class MainActivity : AppCompatActivity() {
 
         if (supportFragmentManager.backStackEntryCount == 0) {
             swipe_refresh_layout.isRefreshing = true
+        } else {
+            supportActionBar?.hide()
         }
         fab.hide()
 
         val newsItemObserver = Observer<Resource<List<NewsItem>?>> { resource->
             when(resource?.status) {
                 Status.SUCCESS -> {
-
                     // keeps refresh circle and fab hidden in fragments, this will run in fragments on orientation change
                     if (supportFragmentManager.backStackEntryCount == 0) {
                         swipe_refresh_layout.isRefreshing = false
@@ -112,6 +113,7 @@ class MainActivity : AppCompatActivity() {
     private fun newsItemClick(newsItem : NewsItem) {
         val args = Bundle()
         fab.hide()
+        supportActionBar?.hide()
         when {
             newsItem.type == "video" -> {
                 args.putString("URL", newsItem.videoUrl)
@@ -139,6 +141,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         if (supportFragmentManager.backStackEntryCount != 0) {
+            supportActionBar?.let {
+                if (!it.isShowing) {
+                    it.show()
+                }
+            }
             supportFragmentManager.popBackStack()
             fab.show()
         } else {
