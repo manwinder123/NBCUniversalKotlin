@@ -68,8 +68,6 @@ class NBCApiTest {
         enqueueResponse("news_response.json")
 
         val newsItemsResponse = nbcApi.getNewsItems().blockingObserve()
-        println(newsItemsResponse)
-        println(newsItemsResponse?.status)
         assertThat(newsItemsResponse?.status, `is`(Status.SUCCESS))
 
         // without the timeout this request sometimes hangs
