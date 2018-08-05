@@ -57,7 +57,7 @@ class ArticleFragment : Fragment() {
     }
 
     private fun loadArticle() {
-        web_view.webViewClient = object : WebViewClient() {
+        web_view?.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 view?.let {
                     val v = it
@@ -77,7 +77,7 @@ class ArticleFragment : Fragment() {
         }
         arguments?.let {
             val url = it.getString("URL")
-            web_view.loadUrl(url)
+            web_view?.loadUrl(url)
         }
     }
 }

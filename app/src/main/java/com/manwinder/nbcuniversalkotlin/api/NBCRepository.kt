@@ -21,11 +21,9 @@ class NBCRepository(private var nbcApi: NBCApi, private var newsItemDao: NewsIte
                 item.data.forEach { newsData ->
                     newsData.items?.forEach { newsItem ->
                         newsItem.type?.let { type ->
-                            // curation type news items only contains a teaser image, nothing else
-                            if (!type.contains("curation") && newsItemDao.hasID(newsItem.id) == 0) {
+                            if (newsItemDao.hasID(newsItem.id) == 0) {
                                 newsItemDao.insert(newsItem)
                             }
-
                         }
                     }
                     newsData.videos?.forEach { newsItem ->
