@@ -31,13 +31,10 @@ class NBCApiTest {
 
     private lateinit var mockWebServer: MockWebServer
 
-    private lateinit var nbcApi: NBCApi
-
     @Before
     @Throws(IOException::class)
     fun setupServer() {
         mockWebServer = MockWebServer()
-        nbcApi = NBCApi.getNBCApi()
     }
 
     @After
@@ -67,11 +64,10 @@ class NBCApiTest {
     fun testNewsItemsRetrieval() {
         enqueueResponse("news_response.json")
 
-        val newsItemsResponse = nbcApi.getNewsItems().blockingObserve()
-        assertThat(newsItemsResponse?.status, `is`(Status.SUCCESS))
+        mockWebServer.start()
 
-        // without the timeout this request sometimes hangs
-        mockWebServer.takeRequest(5, TimeUnit.SECONDS)
+        val nbcApi = NBCApi.getNBCApi(mockWebServer.url(""))
+        val newsItemsResponse = nbcApi.getNewsItems().blockingObserve()
 
         assertNotNull(newsItemsResponse)
         assertNotNull(newsItemsResponse?.data)
@@ -98,6 +94,7 @@ class NBCApiTest {
         assertThat(newsItemList?.get(3)?.videos?.size, `is`(10))
     }
 }
+
 
 // Extension
 
